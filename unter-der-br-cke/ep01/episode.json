@@ -1,21 +1,116 @@
 {
  "series": "Unter der Brücke",
  "episode": 1,
- "title": "EPISODE TITLE",
- "fps": 30, "width": 1080, "height": 1920,
+ "title": "Gefeuert",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
  "grade": [
-  { "preset": "dusk", "f0": 0 }
+  {
+   "preset": "dusk",
+   "f0": 0,
+   "name": "buero",
+   "exposure": 1.25,
+   "sat": 0.85
+  },
+  {
+   "preset": "night",
+   "f0": 250,
+   "name": "stadt",
+   "exposure": 1.45,
+   "sat": 0.9
+  },
+  {
+   "preset": "lamplit",
+   "f0": 440,
+   "name": "bruecke",
+   "exposure": 1.7,
+   "sat": 0.9
+  },
+  {
+   "preset": "threat",
+   "f0": 1186,
+   "name": "wagen",
+   "exposure": 2.0,
+   "accent": 0.8
+  },
+  {
+   "preset": "lamplit",
+   "f0": 1300,
+   "name": "erstarrt",
+   "exposure": 1.5,
+   "sat": 0.85
+  },
+  {
+   "preset": "threat",
+   "f0": 1378,
+   "name": "brandt",
+   "exposure": 2.0,
+   "accent": 0.8
+  }
  ],
  "segments": {
-  "A": { "range": [0, 89], "shots": "shots/shotsA.mjs" }
+  "A": {
+   "range": [
+    0,
+    694
+   ],
+   "shots": "shots/shotsA.mjs"
+  },
+  "B": {
+   "range": [
+    695,
+    1838
+   ],
+   "shots": "shots/shotsB.mjs"
+  }
  },
  "overlay": {
-  "hud": { "from": 2.0, "tag": "DAY 1", "clock": [[0, "6:40 PM"]], "place": [[0, "THE HILL"]], "pill": "EP 1" },
-  "cards": { "chip": true },
+  "hud": {
+   "from": 2.0,
+   "tag": "TAG 1",
+   "clock": [
+    [
+     0,
+     "18:40"
+    ],
+    [
+     8.3,
+     "21:15"
+    ],
+    [
+     14.6,
+     "22:30"
+    ]
+   ],
+   "place": [
+    [
+     0,
+     "BRANDT LOGISTIK"
+    ],
+    [
+     8.3,
+     "INNENSTADT"
+    ],
+    [
+     14.6,
+     "UNTER DER BRÜCKE"
+    ]
+   ],
+   "pill": "FOLGE 1"
+  },
+  "cards": {
+   "chip": true
+  },
   "avoid": [],
-  "vote": { "title": "WHAT DO YOU DO?" },
-  "end": { "kicker": "Unter der Brücke · DAY 1", "title": "EPISODE 2", "follow": "FOLLOW FOR EPISODE 2" },
-  "stat": { "title": "LAST EPISODE · YOUR VOTE" }
+  "vote": {
+   "title": "WAS TUST DU?"
+  },
+  "end": {
+   "kicker": "UNTER DER BRÜCKE · TAG 1",
+   "title": "FOLGE 2",
+   "follow": "FOLGEN FÜR FOLGE 2"
+  }
  },
  "_help": "grade: the colour script, one chapter per change of place/mood, f0 = the frame of a cut (presets: day, golden, overcast, dusk, night, lamplit, interior, storm, threat, forest, memory). segments: set after the voice is locked (BRIEF.md splits the frames between builders; every frame 0..frames-1 in exactly one segment)."
 }

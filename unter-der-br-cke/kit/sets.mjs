@@ -22,11 +22,11 @@ export const office = {
     return OFFICE;
   },
   ground(x, { t = 0 } = {}) {
-    ground(x, { hz: OFFICE.floor - 10, far: '#444856', near: '#262A36' });
+    ground(x, { hz: OFFICE.floor - 10, far: '#444856', near: '#262A36', y1: 3200 });
     // nasser Gehweg: Platten + Spiegelung des Türlichts
     for (let i = -2; i < 12; i++) line(x, [[i * 140 - 60, OFFICE.floor + 20], [i * 200 - 300, H + 40]], 3, 'rgba(20,24,34,0.55)');
     const g = x.createLinearGradient(0, OFFICE.floor, 0, H); g.addColorStop(0, 'rgba(255,214,140,0.30)'); g.addColorStop(1, 'rgba(255,214,140,0)');
-    x.fillStyle = g; x.beginPath(); x.moveTo(380, OFFICE.floor); x.lineTo(700, OFFICE.floor); x.lineTo(900, H); x.lineTo(180, H); x.closePath(); x.fill();
+    x.fillStyle = g; x.beginPath(); x.moveTo(380, OFFICE.floor); x.lineTo(700, OFFICE.floor); x.lineTo(1500, 3200); x.lineTo(-400, 3200); x.closePath(); x.fill();
     return OFFICE;
   },
   rain(x, { t = 0, a = 0.4 } = {}) { rain(x, { t, n: 220, a, angle: 0.16 }); },
@@ -60,9 +60,9 @@ export const city = {
     return CITY;
   },
   ground(x, { t = 0 } = {}) {
-    ground(x, { hz: CITY.floor - 90, far: '#3A3C52', near: '#1A1C2C' });
+    ground(x, { hz: CITY.floor - 90, far: '#3A3C52', near: '#1A1C2C', y1: 3200 });
     // nasser Asphalt: Neon-Spiegelungen
-    for (let i = 0; i < 8; i++) { const c = ['#FF4FA8', '#3FD8E8', '#FFB347'][i % 3], px = 60 + i * 150; const g = x.createLinearGradient(0, CITY.floor, 0, H); g.addColorStop(0, rgba(c.length === 7 ? c : '#FFFFFF', 0.28)); g.addColorStop(1, rgba('#000000', 0)); x.fillStyle = g; x.fillRect(px - 26, CITY.floor, 52, H - CITY.floor); }
+    for (let i = 0; i < 8; i++) { const c = ['#FF4FA8', '#3FD8E8', '#FFB347'][i % 3], px = 60 + i * 150; const g = x.createLinearGradient(0, CITY.floor, 0, H); g.addColorStop(0, rgba(c.length === 7 ? c : '#FFFFFF', 0.28)); g.addColorStop(1, rgba('#000000', 0)); x.fillStyle = g; x.fillRect(px - 26, CITY.floor, 52, 1700); }
     return CITY;
   },
   rain(x, { t = 0, a = 0.35 } = {}) { rain(x, { t, n: 260, a, angle: 0.18 }); },
@@ -70,7 +70,7 @@ export const city = {
 };
 
 // ───────────────────────── 3. UNTER DER BRÜCKE (Hauptset, Nacht) ─────────────────────────
-export const BRIDGE = { hz: 1000, floor: 1500, barrel: [690, 1500], ceil: 380, pillarL: 130, pillarR: 960, seat: [440, 1500], seat2: [900, 1500], light: [690, 1300] };
+export const BRIDGE = { hz: 1000, floor: 1500, barrel: [660, 1500], ceil: 380, pillarL: 130, pillarR: 960, seat: [440, 1500], seat2: [900, 1500], light: [690, 1300] };
 export const bridge = {
   back(x, { t = 0 } = {}) {
     sky(x, { stops: [[0, '#0A0E22'], [0.7, '#1C2448'], [1, '#3A3A60']], y0: -260, y1: BRIDGE.hz });
@@ -98,7 +98,7 @@ export const bridge = {
     return BRIDGE;
   },
   ground(x, { t = 0 } = {}) {
-    ground(x, { hz: BRIDGE.floor - 20, far: '#3A3C48', near: '#1A1C26' });
+    ground(x, { hz: BRIDGE.floor - 20, far: '#3A3C48', near: '#1A1C26', y1: 3200 });
     // Pfütze mit Feuerschein
     x.save(); x.globalAlpha = 0.55; x.fillStyle = '#FF9A3A'; x.beginPath(); x.ellipse(BRIDGE.barrel[0], BRIDGE.floor + 120, 190, 26, 0, 0, TAU); x.fill(); x.restore();
     return BRIDGE;
