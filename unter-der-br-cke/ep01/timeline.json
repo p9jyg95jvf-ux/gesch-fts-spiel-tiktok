@@ -1,0 +1,518 @@
+{
+ "voices": {
+  "narr": {
+   "name": "Brian (premade: tief, ruhig, tröstlich)",
+   "speed": 1.0,
+   "stability": 0.5,
+   "tempo": 1.05
+  }
+ },
+ "model": "eleven_multilingual_v2",
+ "sr": 48000,
+ "duration": 51.633,
+ "frames": 1549,
+ "fps": 30,
+ "stats": {},
+ "lines": [
+  {
+   "i": 0,
+   "beat": 0,
+   "speaker": "narr",
+   "text": "Die Tür knallt zu. Du bist gefeuert.",
+   "start": 0.05,
+   "end": 2.305,
+   "words": [
+    0.05,
+    0.238,
+    0.393,
+    0.68,
+    1.178,
+    1.333,
+    1.52
+   ],
+   "chunks": [
+    {
+     "text": "Die Tür *knallt* zu.",
+     "start": 0.05,
+     "end": 1.178
+    },
+    {
+     "text": "Du bist !gefeuert!.",
+     "start": 1.178,
+     "end": 2.305
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "beat": 1,
+   "speaker": "narr",
+   "text": "Dein Leben. Ein Karton.",
+   "start": 2.885,
+   "end": 4.831,
+   "words": [
+    2.885,
+    3.14,
+    3.737,
+    3.947
+   ],
+   "chunks": [
+    {
+     "text": "Dein Leben.",
+     "start": 2.885,
+     "end": 3.947
+    },
+    {
+     "text": "Ein *Karton*.",
+     "start": 3.947,
+     "end": 4.831
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "beat": 1,
+   "speaker": "narr",
+   "text": "Schwerer, als er aussieht.",
+   "start": 5.111,
+   "end": 6.526,
+   "words": [
+    5.111,
+    5.52,
+    5.72,
+    5.807
+   ],
+   "chunks": [
+    {
+     "text": "*Schwerer*,",
+     "start": 5.111,
+     "end": 5.72
+    },
+    {
+     "text": "als er aussieht.",
+     "start": 5.72,
+     "end": 6.526
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "beat": 2,
+   "speaker": "narr",
+   "text": "Kein Job. Keine Wohnung. Kein Plan.",
+   "start": 7.106,
+   "end": 9.937,
+   "words": [
+    7.106,
+    7.404,
+    8.057,
+    8.367,
+    8.92,
+    9.196
+   ],
+   "chunks": [
+    {
+     "text": "Kein *Job*.",
+     "start": 7.106,
+     "end": 8.057
+    },
+    {
+     "text": "Keine *Wohnung*.",
+     "start": 8.057,
+     "end": 9.196
+    },
+    {
+     "text": "Kein !Plan!.",
+     "start": 9.196,
+     "end": 9.937
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "beat": 2,
+   "speaker": "narr",
+   "text": "Zwölf Euro vierzig. Mehr bleibt nicht.",
+   "start": 10.217,
+   "end": 12.649,
+   "words": [
+    10.217,
+    10.659,
+    10.858,
+    11.599,
+    11.809,
+    12.107
+   ],
+   "chunks": [
+    {
+     "text": "*12,40 €*.",
+     "start": 10.217,
+     "end": 10.858
+    },
+    {
+     "text": "Mehr bleibt",
+     "start": 10.858,
+     "end": 12.107
+    },
+    {
+     "text": "!nicht!.",
+     "start": 12.107,
+     "end": 12.649
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "beat": 3,
+   "speaker": "narr",
+   "text": "Es wird Nacht. Du findest eine Brücke.",
+   "start": 13.279,
+   "end": 15.623,
+   "words": [
+    13.279,
+    13.5,
+    13.721,
+    14.296,
+    14.473,
+    14.827,
+    15.015
+   ],
+   "chunks": [
+    {
+     "text": "Es wird *Nacht*.",
+     "start": 13.279,
+     "end": 14.296
+    },
+    {
+     "text": "Du findest",
+     "start": 14.296,
+     "end": 14.827
+    },
+    {
+     "text": "eine *Brücke*.",
+     "start": 14.827,
+     "end": 15.623
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "beat": 4,
+   "speaker": "narr",
+   "text": "Ein Hund folgt dir.",
+   "start": 16.253,
+   "end": 17.58,
+   "words": [
+    16.253,
+    16.474,
+    16.662,
+    16.917
+   ],
+   "chunks": [
+    {
+     "text": "Ein *Hund*",
+     "start": 16.253,
+     "end": 16.917
+    },
+    {
+     "text": "folgt dir.",
+     "start": 16.917,
+     "end": 17.58
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "beat": 4,
+   "speaker": "narr",
+   "text": "Auf seinem Schal steht: Abfindung.",
+   "start": 17.86,
+   "end": 19.982,
+   "words": [
+    17.86,
+    18.059,
+    18.313,
+    18.589,
+    19.02
+   ],
+   "chunks": [
+    {
+     "text": "Auf seinem Schal",
+     "start": 17.86,
+     "end": 19.02
+    },
+    {
+     "text": "steht: *Abfindung*.",
+     "start": 19.02,
+     "end": 19.982
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "beat": 5,
+   "speaker": "narr",
+   "text": "Am Feuer sitzen zwei Fremde.",
+   "start": 20.662,
+   "end": 22.697,
+   "words": [
+    20.662,
+    20.905,
+    21.16,
+    21.447,
+    21.68
+   ],
+   "chunks": [
+    {
+     "text": "Am Feuer",
+     "start": 20.662,
+     "end": 21.16
+    },
+    {
+     "text": "sitzen *zwei Fremde*.",
+     "start": 21.16,
+     "end": 22.697
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "beat": 5,
+   "speaker": "narr",
+   "text": "Hertha zeigt auf einen Platz. Hier tauscht man.",
+   "start": 22.977,
+   "end": 25.896,
+   "words": [
+    22.977,
+    23.341,
+    23.607,
+    23.773,
+    23.96,
+    24.713,
+    24.945,
+    25.265
+   ],
+   "chunks": [
+    {
+     "text": "*Hertha* zeigt",
+     "start": 22.977,
+     "end": 23.773
+    },
+    {
+     "text": "auf einen Platz.",
+     "start": 23.773,
+     "end": 24.713
+    },
+    {
+     "text": "Hier *tauscht* man.",
+     "start": 24.713,
+     "end": 25.896
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "beat": 6,
+   "speaker": "narr",
+   "text": "Kemal will deinen Karton.",
+   "start": 26.576,
+   "end": 28.08,
+   "words": [
+    26.576,
+    27.04,
+    27.195,
+    27.449
+   ],
+   "chunks": [
+    {
+     "text": "*Kemal* will",
+     "start": 26.576,
+     "end": 27.195
+    },
+    {
+     "text": "deinen *Karton*.",
+     "start": 27.195,
+     "end": 28.08
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "beat": 7,
+   "speaker": "narr",
+   "text": "Der Hund stellt sich dazwischen.",
+   "start": 28.66,
+   "end": 30.207,
+   "words": [
+    28.66,
+    28.859,
+    29.024,
+    29.268,
+    29.411
+   ],
+   "chunks": [
+    {
+     "text": "Der Hund",
+     "start": 28.66,
+     "end": 29.024
+    },
+    {
+     "text": "stellt sich *dazwischen*.",
+     "start": 29.024,
+     "end": 30.207
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "beat": 8,
+   "speaker": "narr",
+   "text": "Hertha reicht dir Tee.",
+   "start": 30.887,
+   "end": 32.302,
+   "words": [
+    30.887,
+    31.297,
+    31.518,
+    31.683
+   ],
+   "chunks": [
+    {
+     "text": "*Hertha* reicht dir",
+     "start": 30.887,
+     "end": 31.683
+    },
+    {
+     "text": "*Tee*.",
+     "start": 31.683,
+     "end": 32.302
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "beat": 8,
+   "speaker": "narr",
+   "text": "Du gibst ihr den Kaktus. Tausch.",
+   "start": 32.582,
+   "end": 35.148,
+   "words": [
+    32.582,
+    32.793,
+    33.069,
+    33.18,
+    33.334,
+    34.252
+   ],
+   "chunks": [
+    {
+     "text": "Du gibst ihr",
+     "start": 32.582,
+     "end": 33.334
+    },
+    {
+     "text": "den *Kaktus*.",
+     "start": 33.334,
+     "end": 34.252
+    },
+    {
+     "text": "!Tausch!.",
+     "start": 34.252,
+     "end": 35.148
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "beat": 9,
+   "speaker": "narr",
+   "text": "Oben hält ein schwarzer Wagen.",
+   "start": 35.928,
+   "end": 37.741,
+   "words": [
+    35.928,
+    36.315,
+    36.547,
+    36.658,
+    37.089
+   ],
+   "chunks": [
+    {
+     "text": "Oben hält ein",
+     "start": 35.928,
+     "end": 36.658
+    },
+    {
+     "text": "!schwarzer Wagen!.",
+     "start": 36.658,
+     "end": 37.741
+    }
+   ]
+  },
+  {
+   "i": 15,
+   "beat": 10,
+   "speaker": "narr",
+   "text": "Es ist deine Chefin. Sie lächelt.",
+   "start": 39.921,
+   "end": 42.177,
+   "words": [
+    39.921,
+    40.154,
+    40.276,
+    40.562,
+    41.071,
+    41.303
+   ],
+   "chunks": [
+    {
+     "text": "Es ist deine *Chefin*.",
+     "start": 39.921,
+     "end": 41.303
+    },
+    {
+     "text": "Sie !lächelt!.",
+     "start": 41.303,
+     "end": 42.177
+    }
+   ]
+  },
+  {
+   "i": 16,
+   "beat": 11,
+   "speaker": "narr",
+   "text": "Geh hoch. Versteck den Karton. Oder frag Hertha.",
+   "start": 42.957,
+   "end": 45.876,
+   "words": [
+    42.957,
+    43.167,
+    43.598,
+    43.952,
+    44.074,
+    44.66,
+    44.902,
+    45.124
+   ],
+   "chunks": [],
+   "vote": true
+  },
+  {
+   "i": 17,
+   "beat": 11,
+   "speaker": "narr",
+   "text": "Kommentiere eins, zwei oder drei.",
+   "start": 46.156,
+   "end": 48.235,
+   "words": [
+    46.156,
+    46.82,
+    47.14,
+    47.417,
+    47.593
+   ],
+   "chunks": [],
+   "cmt": true
+  }
+ ]
+}
