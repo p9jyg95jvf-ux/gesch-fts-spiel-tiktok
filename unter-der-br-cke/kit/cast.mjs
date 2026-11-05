@@ -54,10 +54,21 @@ export const BRANDT = makeHuman({
   glasses: { col: '#2B2B33' },
 });
 
+// Der Wachmann am Büroeingang
+export const WACHMANN = makeHuman({
+  name: 'Wachmann', build: 'broad',
+  skin: '#D9A98A', hair: '#2A2220', hairStyle: 'buzz',
+  top: { type: 'jacket', col: '#2A3550', col2: '#C9CED8' },
+  bottom: { type: 'pants', col: '#1E2230' },
+  shoes: { type: 'boots', col: '#1A1715', col2: '#0F0D0C' },
+  hat: { type: 'cap', col: '#2A3550', col2: '#C9CED8' },
+});
+
 export const CAST = {
   du: { kind: 'human', model: DU, label: 'Du', scale: 1 },
   abfindung: { kind: 'critter', model: ABFINDUNG, label: 'Abfindung', scale: 1 },
   hertha: { kind: 'human', model: HERTHA, label: 'Hertha', scale: 1 },
   kemal: { kind: 'human', model: KEMAL, label: 'Kemal', scale: 1 },
+  wachmann: { kind: 'human', model: WACHMANN, label: 'Wachmann', scale: 1 },
   brandt: { kind: 'human', model: BRANDT, label: 'Frau Brandt', scale: 1 },
 };
