@@ -1,0 +1,200 @@
+{
+ "title": "Gefeuert",
+ "episode": 1,
+ "logline": "Du wirst gefeuert, hast nur einen Karton und landest unter einer Brücke. Ein Hund folgt dir, ein Fremder will deinen Karton, und oben hält ein schwarzer Wagen.",
+ "lead": 0.05,
+ "line_gap": 0.28,
+ "tail": 3.4,
+ "beats": [
+  {
+   "gap": 0,
+   "scene": "FRAME 0 IST ACTION. Regen, Glastür der Brandt Logistik: ein Wachmann schiebt dich raus, du hältst einen Karton. Hinter dem Glas die Silhouette einer Frau im dunklen Mantel (Brandt, nur Umriss), die Tür knallt zu.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Die Tür knallt zu. Du bist gefeuert.",
+     "captions": "Die Tür *knallt* zu.|Du bist !gefeuert!."
+    }
+   ]
+  },
+  {
+   "gap": 0.3,
+   "scene": "Der Karton groß im Bild: Tasse, Kaktus, Stapler. Das Namensschild 'J. Weigel, Disposition' an deinem Hemd. Du sackst unter dem Gewicht leicht ein (der Karton ist schwerer als er aussieht).",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Dein Leben. Ein Karton.",
+     "captions": "Dein Leben.|Ein *Karton*."
+    },
+    {
+     "speaker": "narr",
+     "text": "Schwerer, als er aussieht.",
+     "captions": "*Schwerer*,|als er aussieht."
+    }
+   ]
+  },
+  {
+   "gap": 0.3,
+   "scene": "Du gehst von hinten durch den Regen die Straße entlang; Neonschilder, Leute mit Schirmen gehen an dir vorbei. HUD: Kontostand 12,40 € (tickt, was du ausgibst: der Wert sinkt später).",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Kein Job. Keine Wohnung. Kein Plan.",
+     "captions": "Kein *Job*.|Keine *Wohnung*.|Kein !Plan!."
+    },
+    {
+     "speaker": "narr",
+     "text": "Zwölf Euro vierzig. Mehr bleibt nicht.",
+     "captions": "*12,40 €*.|Mehr bleibt|!nicht!."
+    }
+   ]
+  },
+  {
+   "gap": 0.35,
+   "scene": "Nacht. Weitwinkel von unten: eine riesige Betonbrücke über dir, du winzig. Darunter ein Tonnenfeuer, warmes Licht auf nassem Beton.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Es wird Nacht. Du findest eine Brücke.",
+     "captions": "Es wird *Nacht*.|Du findest|eine *Brücke*."
+    }
+   ]
+  },
+  {
+   "gap": 0.35,
+   "scene": "Abfindung, nass und struppig, trottet hinter dir her, bleibt stehen, schaut dich an, Ohren hoch. Nahaufnahme roter Schal mit dem Aufdruck ABFINDUNG.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Ein Hund folgt dir.",
+     "captions": "Ein *Hund*|folgt dir."
+    },
+    {
+     "speaker": "narr",
+     "text": "Auf seinem Schal steht: Abfindung.",
+     "captions": "Auf seinem Schal|steht: *Abfindung*."
+    }
+   ]
+  },
+  {
+   "gap": 0.4,
+   "scene": "Das Feuer: Oma Hertha sitzt auf einer Kiste, Tasse in der Hand, und zeigt auf einen freien Platz; Kemal steht daneben mit zwei Pfandsäcken und mustert dich.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Am Feuer sitzen zwei Fremde.",
+     "captions": "Am Feuer|sitzen *zwei Fremde*."
+    },
+    {
+     "speaker": "narr",
+     "text": "Hertha zeigt auf einen Platz. Hier tauscht man.",
+     "captions": "*Hertha* zeigt|auf einen Platz.|Hier *tauscht* man."
+    }
+   ]
+  },
+  {
+   "gap": 0.4,
+   "scene": "Kemal starrt auf deinen Karton, tritt vor, greift danach. Du hältst fest, der Karton neigt sich.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Kemal will deinen Karton.",
+     "captions": "*Kemal* will|deinen *Karton*."
+    }
+   ]
+  },
+  {
+   "gap": 0.3,
+   "scene": "Abfindung springt dazwischen, knurrt, Schal flattert, Ohren flach. Kemal weicht zurück, hebt die Hände. Hertha nickt langsam.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Der Hund stellt sich dazwischen.",
+     "captions": "Der Hund|stellt sich *dazwischen*."
+    }
+   ]
+  },
+  {
+   "gap": 0.4,
+   "scene": "Entspannung: Kemal grinst, Hertha reicht dir eine dampfende Tasse Tee. Du gibst ihr den Kaktus aus dem Karton, sie stellt ihn aufs Fass. Abfindung legt sich zu deinen Füßen, Schwanz wedelt, Wärme vom Feuer.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Hertha reicht dir Tee.",
+     "captions": "*Hertha* reicht dir|*Tee*."
+    },
+    {
+     "speaker": "narr",
+     "text": "Du gibst ihr den Kaktus. Tausch.",
+     "captions": "Du gibst ihr|den *Kaktus*.|!Tausch!."
+    }
+   ]
+  },
+  {
+   "gap": 0.5,
+   "scene": "DER CLIP-MOMENT (3-4 s, volle Bildbreite): Scheinwerferlicht fegt über die Brücke, alle erstarren. Oben hält ein schwarzer Wagen mit rundem Kratzer an der Tür. Dann 1.5-2 s ohne Stimme, nur Regen und ein Motor, der leise läuft. Versteckt: die Silhouette hinter der Scheibe hebt ein Fernglas.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Oben hält ein schwarzer Wagen.",
+     "captions": "Oben hält ein|!schwarzer Wagen!."
+    }
+   ]
+  },
+  {
+   "gap": 1.9,
+   "scene": "Die Wagentür geht auf. Frau Brandt (jetzt erkennbar: Brille, dunkler Mantel) tritt ans Geländer, einen Umschlag in der Hand, und sieht direkt zu dir herunter. Sie lächelt höflich.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Es ist deine Chefin. Sie lächelt.",
+     "captions": "Es ist deine *Chefin*.|Sie !lächelt!."
+    }
+   ]
+  },
+  {
+   "gap": 0.5,
+   "scene": "DIE ABSTIMMUNG: Ruhiger Weitwinkel, du und Abfindung unter der Brücke, Hertha am Feuer, Brandt klein oben am Geländer. Gesichter über y 760, y 800-1440 frei für Titel und Pills.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Geh hoch. Versteck den Karton. Oder frag Hertha.",
+     "captions": "",
+     "vote": true
+    },
+    {
+     "speaker": "narr",
+     "text": "Kommentiere eins, zwei oder drei.",
+     "captions": "",
+     "cmt": true
+    }
+   ]
+  }
+ ],
+ "vote": {
+  "title": "WAS TUST DU?",
+  "options": [
+   {
+    "n": 1,
+    "label": "HOCHGEHEN",
+    "tag": "SIE HAT ETWAS FÜR DICH",
+    "say": "geh",
+    "col": "#2F6FD0"
+   },
+   {
+    "n": 2,
+    "label": "KARTON VERSTECKEN",
+    "tag": "ER IST SCHWERER ALS ER AUSSIEHT",
+    "say": "versteck",
+    "col": "#E0A030"
+   },
+   {
+    "n": 3,
+    "label": "HERTHA FRAGEN",
+    "tag": "SIE KENNT DIE REGELN",
+    "say": "frag",
+    "col": "#3AA36A"
+   }
+  ]
+ }
+}
