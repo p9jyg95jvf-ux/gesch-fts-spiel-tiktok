@@ -1,67 +1,68 @@
-# Unter der Brücke · Episode 1: publishing pack
+# Unter der Brücke · Folge 1 „Gefeuert“: Veröffentlichungs-Paket
 
-**Files:** `out/<name>_final.mp4` (upload this everywhere), `out/<name>_phone.mp4` (to send to your phone), the cover
-you picked from `publish/cover_*.png`.
+**Dateien:** `out/unter-der-br-cke_ep01_final.mp4` (diese Datei überall hochladen, 1080x1920, 61,3 s),
+`out/unter-der-br-cke_ep01_phone.mp4` (zum Aufs-Handy-Schicken), Cover: **`publish/cover_A.png`** (empfohlen, Gesicht am größten;
+B und C sind Alternativen, siehe `covers_sheet.jpg`).
 
-**No spoilers:** nothing in the title, cover, caption or pinned comment says what happens after the first third, what
-the twist is, or the answer to any mystery. No exact clock times or time zones in public text.
+**Keine Spoiler:** weder Titel, Cover, Caption noch angepinnte Kommentare verraten, was nach dem ersten Drittel passiert
+(Hund, Brücke, der Wagen, Brandt). Keine genauen Uhrzeiten oder Zeitzonen im öffentlichen Text.
 
-## YouTube Short (post first, about an hour before Instagram)
+## YouTube Short (ca. eine Stunde vor Instagram posten)
 
-**Title** (under 60 characters, the situation, not the twist):
+**Titel** (unter 60 Zeichen, die Lage, nicht die Wendung):
 ```text
-TITLE (Unter der Brücke Ep 1)
+Gefeuert. Jetzt entscheidest du, was passiert.
 ```
-**Description:**
+**Beschreibung:**
 ```text
-Episode 1 of an animated story where YOU decide what happens next. [One spoiler-free line.]
+Folge 1 einer animierten Geschichte, in der DU entscheidest, wie es weitergeht. Du wurdest heute gefeuert. Alles, was du hast, passt in einen Karton.
 
-[Option 1], [option 2] or [option 3]? Comment 1, 2 or 3. The votes decide Episode 1+1.
+Hochgehen, den Karton verstecken oder Hertha fragen? Schreib 1, 2 oder 3 in die Kommentare. Die Stimmen entscheiden Folge 2.
 
-Episode 1: [link]  (and every earlier episode, in order)
+Folge 1: [Link]  (und alle früheren Folgen, der Reihe nach)
 
-#animation #shorts #story
+#animation #shorts #geschichte #unterderbrücke
 ```
-**Settings:** Not made for kids. AI-generated content: No (the animation is code-drawn; say so if asked). Paid promotion:
-No. Category: Film & Animation. Comments on. Playlist "Watch in order". Thumbnail: the cover. Wait for "Checks
-complete. No issues found." before Publish. Then pin the vote comment (below) and set the previous episode's related
-video to this one.
+**Einstellungen:** Nicht für Kinder gemacht. KI-generierter Inhalt: Nein (die Bilder sind per Code gezeichnet; die Erzählerstimme ist
+eine ElevenLabs-Stimme, bei Nachfrage offen sagen). Bezahlte Werbung: Nein. Kategorie: Film & Animation. Kommentare an.
+Playlist „In Reihenfolge ansehen“. Vorschaubild: das Cover. Auf „Prüfungen abgeschlossen. Keine Probleme gefunden“ warten, dann
+veröffentlichen. Danach den Abstimmungs-Kommentar anpinnen.
 
 ## Instagram Reel
-**Caption** (ask the story question in words; the NUMBERS live only in the pills and the pinned comment):
+**Caption** (die Geschichtsfrage in Worten, die ZAHLEN stehen nur in den Pills und im angepinnten Kommentar):
 ```text
-Episode 1 · [one spoiler-free line].
+Folge 1 · Gefeuert, mit einem Karton und einem Hund, der dir folgt.
 
-[Option 1], [option 2] or [option 3]? The votes decide Episode 1+1.
-Episode 1 is pinned on the profile.
+Gehst du hoch, versteckst du den Karton oder fragst du Hertha? Die Stimmen entscheiden Folge 2.
+Folge 1 ist oben im Profil angepinnt.
 
-#animation #story #[genre] #whatwouldyoudo
+#animation #geschichte #unterderbrücke #wasdutustdu
 ```
-**Add the Reel poll** (it pulls far more votes than comments): [OPTION 1] / [OPTION 2] / [OPTION 3].
-**Cover:** the cover image. **Link a reel:** on the previous episode, "Watch Episode 1"; on this one, "Start: Episode 1".
+**Reel-Umfrage hinzufügen** (zieht viel mehr Stimmen als Kommentare): HOCHGEHEN / KARTON VERSTECKEN / HERTHA FRAGEN.
+**Cover:** `cover_A.png`. **Reel verlinken:** bei dieser Folge „Start: Folge 1“.
 
-## Comments to post and pin (Instagram pins up to 3; YouTube pins only 1: pin the vote there, post the clue unpinned)
-**Pin 1, the vote** (votes stay open at least 24 h, including a full US daytime):
+## Kommentare posten und anpinnen (Instagram: bis zu 3 anpinnen, YouTube nur 1: dort die Abstimmung anpinnen, den Hinweis ungepinnt posten)
+**Pin 1, die Abstimmung** (Stimmen bleiben mindestens 24 h offen, inklusive eines vollen US-Tages):
 ```text
-YOU DECIDE EPISODE 1+1: 1 [OPTION 1] · 2 [OPTION 2] · 3 [OPTION 3]? Tell us what you'd do, and why.
+IHR ENTSCHEIDET FOLGE 2: 1 HOCHGEHEN · 2 KARTON VERSTECKEN · 3 HERTHA FRAGEN? Schreibt, was ihr tun würdet, und warum.
 ```
-**Pin 2, the clue** (pause bait, never the answer):
+**Pin 2, der Hinweis** (Pausen-Köder, nie die Antwort):
 ```text
-There's something hidden at [m:ss] 👀 New here? Episode 1 is pinned on the profile.
+Bei 0:42 ist etwas versteckt 👀 Neu hier? Folge 1 ist oben im Profil angepinnt.
 ```
-**Clue hint, ~12 h later, only if nobody found it:**
+**Hinweis-Nachschub, ca. 12 h später, nur wenn niemand es gefunden hat:**
 ```text
-Pause at [m:ss]. Don't look at [the obvious thing]. Look [where].
+Pausiere bei 0:42. Schau nicht auf die Scheinwerfer. Schau auf die Scheibe.
 ```
-If someone finds it: pin their comment and reply "👀 We're not saying anything."
+Wenn jemand es findet: dessen Kommentar anpinnen und antworten „👀 Wir sagen nichts.“
 
-## Story after posting
-Share the reel to your Story with "EPISODE 1 IS UP: 1, 2 or 3?" and a poll sticker (no spoilers).
+## Die Geschichte nach dem Posten
+Reel in deine Story teilen mit „FOLGE 1 IST DA: 1, 2 oder 3?“ und einem Umfrage-Sticker (ohne Spoiler).
 
-## Checklist
-- [ ] Watched the final end to end, at full size, with sound, before posting.
-- [ ] Title, cover, caption and pins checked for spoilers.
-- [ ] Vote comment pinned on both platforms (the clue pinned on Instagram only); poll added on Instagram.
-- [ ] Previous episode links to this one; this one links to Episode 1.
-- [ ] `../series/CANON.md` updated with what this episode showed and said.
-- [ ] After 24 h: read the vote (comments + poll), write it into the next episode's `stats.json`.
+## Checkliste
+- [ ] Die Endfassung einmal komplett in voller Größe mit Ton angesehen, bevor du postest.
+- [ ] Titel, Cover, Caption und Pins auf Spoiler geprüft.
+- [ ] Abstimmungs-Kommentar auf beiden Plattformen angepinnt (Hinweis nur bei Instagram); Umfrage bei Instagram hinzugefügt.
+- [ ] Diese Folge verlinkt auf Folge 1.
+- [ ] `../series/CANON.md` ist mit dem aktualisiert, was diese Folge gezeigt und gesagt hat.
+- [ ] Nach 24 h: die Abstimmung ablesen (Kommentare + Umfrage), in `stats.json` von Folge 2 eintragen, dann Folge 2 starten.
