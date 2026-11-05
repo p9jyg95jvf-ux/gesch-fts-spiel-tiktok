@@ -36,6 +36,7 @@ jobs:
       - run: npm ci
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: npx playwright-core install --with-deps chromium
+      - run: bash scripts/setup-tts.sh
       - run: npm run build:render
       - run: node render/render.js ${{ inputs.episode }} --workers 3
       - uses: actions/upload-artifact@v4

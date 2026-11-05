@@ -26,7 +26,10 @@ npm test                 # Engine-Tests
 npm run validate         # prüft Länge und Pflichtfelder aller Folgen
 ```
 
-Benötigt Node 22, ffmpeg und Chromium (lokal per `CHROMIUM_PATH=/pfad/zu/chromium` oder `npx playwright-core install chromium`).
+Für die Sprachausgabe einmalig `bash scripts/setup-tts.sh` (installiert Piper und lädt die deutschen Stimmen nach `voices/`).
+Stimmen pro Figur: `render/voices.json`. Prüfen, ob alle Zeilen ins Zeitfenster passen: `node render/tts.js ep001`.
+
+Benötigt Node 22, Python 3, ffmpeg und Chromium (lokal per `CHROMIUM_PATH=/pfad/zu/chromium` oder `npx playwright-core install chromium`).
 
 Vorschaubilder statt ganzes Video: `node render/render.js ep001 --stills` oder `--frame 12.5`.
 
