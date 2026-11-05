@@ -1,16 +1,16 @@
 {
  "voices": {
   "narr": {
-   "name": "Brian (premade: tief, ruhig, tröstlich)",
-   "speed": 1.0,
+   "name": "George (premade: warm, Geschichtenerzähler)",
+   "speed": 0.97,
    "stability": 0.5,
-   "tempo": 1.05
+   "tempo": 1.0
   }
  },
- "model": "eleven_multilingual_v2",
+ "model": "eleven_v3",
  "sr": 48000,
- "duration": 51.633,
- "frames": 1549,
+ "duration": 61.3,
+ "frames": 1839,
  "fps": 30,
  "stats": {},
  "lines": [
@@ -20,26 +20,26 @@
    "speaker": "narr",
    "text": "Die Tür knallt zu. Du bist gefeuert.",
    "start": 0.05,
-   "end": 2.305,
+   "end": 2.61,
    "words": [
     0.05,
-    0.238,
-    0.393,
-    0.68,
-    1.178,
-    1.333,
-    1.52
+    0.21,
+    0.503,
+    0.983,
+    1.357,
+    1.762,
+    1.95
    ],
    "chunks": [
     {
      "text": "Die Tür *knallt* zu.",
      "start": 0.05,
-     "end": 1.178
+     "end": 1.357
     },
     {
      "text": "Du bist !gefeuert!.",
-     "start": 1.178,
-     "end": 2.305
+     "start": 1.357,
+     "end": 2.61
     }
    ]
   },
@@ -48,24 +48,24 @@
    "beat": 1,
    "speaker": "narr",
    "text": "Dein Leben. Ein Karton.",
-   "start": 2.885,
-   "end": 4.831,
+   "start": 3.51,
+   "end": 5.83,
    "words": [
-    2.885,
-    3.14,
-    3.737,
-    3.947
+    3.51,
+    3.83,
+    4.78,
+    5.19
    ],
    "chunks": [
     {
      "text": "Dein Leben.",
-     "start": 2.885,
-     "end": 3.947
+     "start": 3.51,
+     "end": 4.78
     },
     {
      "text": "Ein *Karton*.",
-     "start": 3.947,
-     "end": 4.831
+     "start": 4.78,
+     "end": 5.83
     }
    ]
   },
@@ -74,24 +74,24 @@
    "beat": 1,
    "speaker": "narr",
    "text": "Schwerer, als er aussieht.",
-   "start": 5.111,
-   "end": 6.526,
+   "start": 6.23,
+   "end": 7.59,
    "words": [
-    5.111,
-    5.52,
-    5.72,
-    5.807
+    6.23,
+    6.78,
+    6.897,
+    7.014
    ],
    "chunks": [
     {
      "text": "*Schwerer*,",
-     "start": 5.111,
-     "end": 5.72
+     "start": 6.23,
+     "end": 6.78
     },
     {
      "text": "als er aussieht.",
-     "start": 5.72,
-     "end": 6.526
+     "start": 6.78,
+     "end": 7.59
     }
    ]
   },
@@ -100,31 +100,31 @@
    "beat": 2,
    "speaker": "narr",
    "text": "Kein Job. Keine Wohnung. Kein Plan.",
-   "start": 7.106,
-   "end": 9.937,
+   "start": 8.49,
+   "end": 11.05,
    "words": [
-    7.106,
-    7.404,
-    8.057,
-    8.367,
-    8.92,
-    9.196
+    8.49,
+    8.75,
+    9.317,
+    9.59,
+    10.277,
+    10.698
    ],
    "chunks": [
     {
      "text": "Kein *Job*.",
-     "start": 7.106,
-     "end": 8.057
+     "start": 8.49,
+     "end": 9.317
     },
     {
      "text": "Keine *Wohnung*.",
-     "start": 8.057,
-     "end": 9.196
+     "start": 9.317,
+     "end": 10.277
     },
     {
      "text": "Kein !Plan!.",
-     "start": 9.196,
-     "end": 9.937
+     "start": 10.277,
+     "end": 11.05
     }
    ]
   },
@@ -133,31 +133,31 @@
    "beat": 2,
    "speaker": "narr",
    "text": "Zwölf Euro vierzig. Mehr bleibt nicht.",
-   "start": 10.217,
-   "end": 12.649,
+   "start": 11.45,
+   "end": 13.85,
    "words": [
-    10.217,
-    10.659,
-    10.858,
-    11.599,
-    11.809,
-    12.107
+    11.45,
+    11.754,
+    12.074,
+    12.746,
+    13.176,
+    13.503
    ],
    "chunks": [
     {
      "text": "*12,40 €*.",
-     "start": 10.217,
-     "end": 10.858
+     "start": 11.45,
+     "end": 12.074
     },
     {
      "text": "Mehr bleibt",
-     "start": 10.858,
-     "end": 12.107
+     "start": 12.074,
+     "end": 13.176
     },
     {
      "text": "!nicht!.",
-     "start": 12.107,
-     "end": 12.649
+     "start": 13.176,
+     "end": 13.85
     }
    ]
   },
@@ -166,32 +166,32 @@
    "beat": 3,
    "speaker": "narr",
    "text": "Es wird Nacht. Du findest eine Brücke.",
-   "start": 13.279,
-   "end": 15.623,
+   "start": 14.8,
+   "end": 17.2,
    "words": [
-    13.279,
-    13.5,
-    13.721,
-    14.296,
-    14.473,
-    14.827,
-    15.015
+    14.8,
+    14.928,
+    15.187,
+    15.893,
+    16.14,
+    16.512,
+    16.693
    ],
    "chunks": [
     {
      "text": "Es wird *Nacht*.",
-     "start": 13.279,
-     "end": 14.296
+     "start": 14.8,
+     "end": 15.893
     },
     {
      "text": "Du findest",
-     "start": 14.296,
-     "end": 14.827
+     "start": 15.893,
+     "end": 16.512
     },
     {
      "text": "eine *Brücke*.",
-     "start": 14.827,
-     "end": 15.623
+     "start": 16.512,
+     "end": 17.2
     }
    ]
   },
@@ -200,24 +200,24 @@
    "beat": 4,
    "speaker": "narr",
    "text": "Ein Hund folgt dir.",
-   "start": 16.253,
-   "end": 17.58,
+   "start": 18.15,
+   "end": 19.43,
    "words": [
-    16.253,
-    16.474,
-    16.662,
-    16.917
+    18.15,
+    18.39,
+    18.77,
+    19.17
    ],
    "chunks": [
     {
      "text": "Ein *Hund*",
-     "start": 16.253,
-     "end": 16.917
+     "start": 18.15,
+     "end": 18.77
     },
     {
      "text": "folgt dir.",
-     "start": 16.917,
-     "end": 17.58
+     "start": 18.77,
+     "end": 19.43
     }
    ]
   },
@@ -226,25 +226,25 @@
    "beat": 4,
    "speaker": "narr",
    "text": "Auf seinem Schal steht: Abfindung.",
-   "start": 17.86,
-   "end": 19.982,
+   "start": 19.83,
+   "end": 22.47,
    "words": [
-    17.86,
-    18.059,
-    18.313,
-    18.589,
-    19.02
+    19.83,
+    20.024,
+    20.29,
+    20.697,
+    21.377
    ],
    "chunks": [
     {
      "text": "Auf seinem Schal",
-     "start": 17.86,
-     "end": 19.02
+     "start": 19.83,
+     "end": 21.377
     },
     {
      "text": "steht: *Abfindung*.",
-     "start": 19.02,
-     "end": 19.982
+     "start": 21.377,
+     "end": 22.47
     }
    ]
   },
@@ -253,25 +253,25 @@
    "beat": 5,
    "speaker": "narr",
    "text": "Am Feuer sitzen zwei Fremde.",
-   "start": 20.662,
-   "end": 22.697,
+   "start": 23.47,
+   "end": 25.31,
    "words": [
-    20.662,
-    20.905,
-    21.16,
-    21.447,
-    21.68
+    23.47,
+    23.63,
+    24.01,
+    24.414,
+    24.718
    ],
    "chunks": [
     {
      "text": "Am Feuer",
-     "start": 20.662,
-     "end": 21.16
+     "start": 23.47,
+     "end": 24.01
     },
     {
      "text": "sitzen *zwei Fremde*.",
-     "start": 21.16,
-     "end": 22.697
+     "start": 24.01,
+     "end": 25.31
     }
    ]
   },
@@ -280,33 +280,33 @@
    "beat": 5,
    "speaker": "narr",
    "text": "Hertha zeigt auf einen Platz. Hier tauscht man.",
-   "start": 22.977,
-   "end": 25.896,
+   "start": 25.71,
+   "end": 28.83,
    "words": [
-    22.977,
-    23.341,
-    23.607,
-    23.773,
-    23.96,
-    24.713,
-    24.945,
-    25.265
+    25.71,
+    26.083,
+    26.39,
+    26.537,
+    26.737,
+    27.31,
+    28.03,
+    28.49
    ],
    "chunks": [
     {
      "text": "*Hertha* zeigt",
-     "start": 22.977,
-     "end": 23.773
+     "start": 25.71,
+     "end": 26.537
     },
     {
      "text": "auf einen Platz.",
-     "start": 23.773,
-     "end": 24.713
+     "start": 26.537,
+     "end": 27.31
     },
     {
      "text": "Hier *tauscht* man.",
-     "start": 24.713,
-     "end": 25.896
+     "start": 27.31,
+     "end": 28.83
     }
    ]
   },
@@ -315,24 +315,24 @@
    "beat": 6,
    "speaker": "narr",
    "text": "Kemal will deinen Karton.",
-   "start": 26.576,
-   "end": 28.08,
+   "start": 29.83,
+   "end": 31.35,
    "words": [
-    26.576,
-    27.04,
-    27.195,
-    27.449
+    29.83,
+    30.198,
+    30.417,
+    30.774
    ],
    "chunks": [
     {
      "text": "*Kemal* will",
-     "start": 26.576,
-     "end": 27.195
+     "start": 29.83,
+     "end": 30.417
     },
     {
      "text": "deinen *Karton*.",
-     "start": 27.195,
-     "end": 28.08
+     "start": 30.417,
+     "end": 31.35
     }
    ]
   },
@@ -341,25 +341,25 @@
    "beat": 7,
    "speaker": "narr",
    "text": "Der Hund stellt sich dazwischen.",
-   "start": 28.66,
-   "end": 30.207,
+   "start": 32.25,
+   "end": 33.69,
    "words": [
-    28.66,
-    28.859,
-    29.024,
-    29.268,
-    29.411
+    32.25,
+    32.394,
+    32.684,
+    32.922,
+    33.09
    ],
    "chunks": [
     {
      "text": "Der Hund",
-     "start": 28.66,
-     "end": 29.024
+     "start": 32.25,
+     "end": 32.684
     },
     {
      "text": "stellt sich *dazwischen*.",
-     "start": 29.024,
-     "end": 30.207
+     "start": 32.684,
+     "end": 33.69
     }
    ]
   },
@@ -368,24 +368,24 @@
    "beat": 8,
    "speaker": "narr",
    "text": "Hertha reicht dir Tee.",
-   "start": 30.887,
-   "end": 32.302,
+   "start": 34.69,
+   "end": 35.89,
    "words": [
-    30.887,
-    31.297,
-    31.518,
-    31.683
+    34.69,
+    35.117,
+    35.43,
+    35.57
    ],
    "chunks": [
     {
      "text": "*Hertha* reicht dir",
-     "start": 30.887,
-     "end": 31.683
+     "start": 34.69,
+     "end": 35.57
     },
     {
      "text": "*Tee*.",
-     "start": 31.683,
-     "end": 32.302
+     "start": 35.57,
+     "end": 35.89
     }
    ]
   },
@@ -394,31 +394,31 @@
    "beat": 8,
    "speaker": "narr",
    "text": "Du gibst ihr den Kaktus. Tausch.",
-   "start": 32.582,
-   "end": 35.148,
+   "start": 36.29,
+   "end": 38.45,
    "words": [
-    32.582,
-    32.793,
-    33.069,
-    33.18,
-    33.334,
-    34.252
+    36.29,
+    36.43,
+    36.71,
+    36.81,
+    36.97,
+    37.87
    ],
    "chunks": [
     {
      "text": "Du gibst ihr",
-     "start": 32.582,
-     "end": 33.334
+     "start": 36.29,
+     "end": 36.97
     },
     {
      "text": "den *Kaktus*.",
-     "start": 33.334,
-     "end": 34.252
+     "start": 36.97,
+     "end": 37.87
     },
     {
      "text": "!Tausch!.",
-     "start": 34.252,
-     "end": 35.148
+     "start": 37.87,
+     "end": 38.45
     }
    ]
   },
@@ -427,25 +427,25 @@
    "beat": 9,
    "speaker": "narr",
    "text": "Oben hält ein schwarzer Wagen.",
-   "start": 35.928,
-   "end": 37.741,
+   "start": 39.55,
+   "end": 41.15,
    "words": [
-    35.928,
-    36.315,
-    36.547,
-    36.658,
-    37.089
+    39.55,
+    39.87,
+    40.07,
+    40.224,
+    40.67
    ],
    "chunks": [
     {
      "text": "Oben hält ein",
-     "start": 35.928,
-     "end": 36.658
+     "start": 39.55,
+     "end": 40.224
     },
     {
      "text": "!schwarzer Wagen!.",
-     "start": 36.658,
-     "end": 37.741
+     "start": 40.224,
+     "end": 41.15
     }
    ]
   },
@@ -454,26 +454,26 @@
    "beat": 10,
    "speaker": "narr",
    "text": "Es ist deine Chefin. Sie lächelt.",
-   "start": 39.921,
-   "end": 42.177,
+   "start": 45.95,
+   "end": 48.27,
    "words": [
-    39.921,
-    40.154,
-    40.276,
-    40.562,
-    41.071,
-    41.303
+    45.95,
+    46.07,
+    46.23,
+    46.47,
+    47.41,
+    47.763
    ],
    "chunks": [
     {
      "text": "Es ist deine *Chefin*.",
-     "start": 39.921,
-     "end": 41.303
+     "start": 45.95,
+     "end": 47.41
     },
     {
      "text": "Sie !lächelt!.",
-     "start": 41.303,
-     "end": 42.177
+     "start": 47.41,
+     "end": 48.27
     }
    ]
   },
@@ -482,17 +482,17 @@
    "beat": 11,
    "speaker": "narr",
    "text": "Geh hoch. Versteck den Karton. Oder frag Hertha.",
-   "start": 42.957,
-   "end": 45.876,
+   "start": 49.97,
+   "end": 53.25,
    "words": [
-    42.957,
-    43.167,
-    43.598,
-    43.952,
-    44.074,
-    44.66,
-    44.902,
-    45.124
+    49.97,
+    50.194,
+    50.61,
+    51.13,
+    51.314,
+    52.09,
+    52.37,
+    52.73
    ],
    "chunks": [],
    "vote": true
@@ -502,14 +502,14 @@
    "beat": 11,
    "speaker": "narr",
    "text": "Kommentiere eins, zwei oder drei.",
-   "start": 46.156,
-   "end": 48.235,
+   "start": 53.65,
+   "end": 56.29,
    "words": [
-    46.156,
-    46.82,
-    47.14,
-    47.417,
-    47.593
+    53.65,
+    54.29,
+    55.074,
+    55.426,
+    55.874
    ],
    "chunks": [],
    "cmt": true

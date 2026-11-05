@@ -27,10 +27,11 @@ def _req(url, key, body=None, method="GET", timeout=240):
 def _body(text, model, speed, stability, similarity, style, prev, nxt, seed):
     b = {"text": text, "model_id": model,
          "voice_settings": {"stability": stability, "similarity_boost": similarity, "style": style, "use_speaker_boost": True, "speed": speed}}
-    if prev:
-        b["previous_text"] = prev
-    if nxt:
-        b["next_text"] = nxt
+    if not str(model).startswith("eleven_v3"):  # v3 does not accept previous_text / next_text
+        if prev:
+            b["previous_text"] = prev
+        if nxt:
+            b["next_text"] = nxt
     if seed is not None:
         b["seed"] = seed
     return b
