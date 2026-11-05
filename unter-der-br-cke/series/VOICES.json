@@ -2,6 +2,14 @@
  "model": "eleven_multilingual_v2",
  "note": "Einmal pro Serie besetzt. narr = der Erzähler (spricht zu 'du'). Premade-Stimmen, auf jedem Konto vorhanden.",
  "cast": {
-  "narr": { "name": "Brian (premade: tief, ruhig, tröstlich)", "voice": "nPczCjzI2devNBz1zQrb", "speed": 1.0, "stability": 0.5, "similarity": 0.8, "style": 0.3, "tempo": 1.05 }
+  "narr": {
+   "name": "Ben (deutsch: Conversational, natürlich)",
+   "voice": "MMwckqU477oQxnAk1SgA",
+   "speed": 0.97,
+   "stability": 0.38,
+   "similarity": 0.8,
+   "style": 0.2,
+   "tempo": 1.0
+  }
  }
 }

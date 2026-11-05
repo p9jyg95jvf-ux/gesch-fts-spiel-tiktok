@@ -3,8 +3,8 @@
  "episode": 1,
  "logline": "Du wirst gefeuert, hast nur einen Karton und landest unter einer Brücke. Ein Hund folgt dir, ein Fremder will deinen Karton, und oben hält ein schwarzer Wagen.",
  "lead": 0.05,
- "line_gap": 0.28,
- "tail": 3.4,
+ "line_gap": 0.4,
+ "tail": 4.0,
  "beats": [
   {
    "gap": 0,
@@ -18,7 +18,7 @@
    ]
   },
   {
-   "gap": 0.3,
+   "gap": 0.5,
    "scene": "Der Karton groß im Bild: Tasse, Kaktus, Stapler. Das Namensschild 'J. Weigel, Disposition' an deinem Hemd. Du sackst unter dem Gewicht leicht ein (der Karton ist schwerer als er aussieht).",
    "lines": [
     {
@@ -34,7 +34,7 @@
    ]
   },
   {
-   "gap": 0.3,
+   "gap": 0.5,
    "scene": "Du gehst von hinten durch den Regen die Straße entlang; Neonschilder, Leute mit Schirmen gehen an dir vorbei. HUD: Kontostand 12,40 € (tickt, was du ausgibst: der Wert sinkt später).",
    "lines": [
     {
@@ -50,7 +50,7 @@
    ]
   },
   {
-   "gap": 0.35,
+   "gap": 0.55,
    "scene": "Nacht. Weitwinkel von unten: eine riesige Betonbrücke über dir, du winzig. Darunter ein Tonnenfeuer, warmes Licht auf nassem Beton.",
    "lines": [
     {
@@ -61,7 +61,7 @@
    ]
   },
   {
-   "gap": 0.35,
+   "gap": 0.55,
    "scene": "Abfindung, nass und struppig, trottet hinter dir her, bleibt stehen, schaut dich an, Ohren hoch. Nahaufnahme roter Schal mit dem Aufdruck ABFINDUNG.",
    "lines": [
     {
@@ -77,7 +77,7 @@
    ]
   },
   {
-   "gap": 0.4,
+   "gap": 0.6,
    "scene": "Das Feuer: Oma Hertha sitzt auf einer Kiste, Tasse in der Hand, und zeigt auf einen freien Platz; Kemal steht daneben mit zwei Pfandsäcken und mustert dich.",
    "lines": [
     {
@@ -93,7 +93,7 @@
    ]
   },
   {
-   "gap": 0.4,
+   "gap": 0.6,
    "scene": "Kemal starrt auf deinen Karton, tritt vor, greift danach. Du hältst fest, der Karton neigt sich.",
    "lines": [
     {
@@ -104,7 +104,7 @@
    ]
   },
   {
-   "gap": 0.3,
+   "gap": 0.5,
    "scene": "Abfindung springt dazwischen, knurrt, Schal flattert, Ohren flach. Kemal weicht zurück, hebt die Hände. Hertha nickt langsam.",
    "lines": [
     {
@@ -115,7 +115,7 @@
    ]
   },
   {
-   "gap": 0.4,
+   "gap": 0.6,
    "scene": "Entspannung: Kemal grinst, Hertha reicht dir eine dampfende Tasse Tee. Du gibst ihr den Kaktus aus dem Karton, sie stellt ihn aufs Fass. Abfindung legt sich zu deinen Füßen, Schwanz wedelt, Wärme vom Feuer.",
    "lines": [
     {
@@ -131,7 +131,7 @@
    ]
   },
   {
-   "gap": 0.5,
+   "gap": 0.7,
    "scene": "DER CLIP-MOMENT (3-4 s, volle Bildbreite): Scheinwerferlicht fegt über die Brücke, alle erstarren. Oben hält ein schwarzer Wagen mit rundem Kratzer an der Tür. Dann 1.5-2 s ohne Stimme, nur Regen und ein Motor, der leise läuft. Versteckt: die Silhouette hinter der Scheibe hebt ein Fernglas.",
    "lines": [
     {
@@ -142,7 +142,7 @@
    ]
   },
   {
-   "gap": 1.9,
+   "gap": 3.2,
    "scene": "Die Wagentür geht auf. Frau Brandt (jetzt erkennbar: Brille, dunkler Mantel) tritt ans Geländer, einen Umschlag in der Hand, und sieht direkt zu dir herunter. Sie lächelt höflich.",
    "lines": [
     {
@@ -153,7 +153,7 @@
    ]
   },
   {
-   "gap": 0.5,
+   "gap": 0.9,
    "scene": "DIE ABSTIMMUNG: Ruhiger Weitwinkel, du und Abfindung unter der Brücke, Hertha am Feuer, Brandt klein oben am Geländer. Gesichter über y 760, y 800-1440 frei für Titel und Pills.",
    "lines": [
     {
