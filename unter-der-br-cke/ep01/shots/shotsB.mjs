@@ -63,8 +63,8 @@ const B02 = shot('B02', 770, 834, 'medium', (L, t) => {
 const hB03 = take({ ...hp0, expr: 'happy', armR: 'hold' }, [{ t: T(850), expr: 'happy', dur: 0.3 }], { seed: 5 });
 const kB03 = take({ ...kp0, x: 840, armR: 'out', armL: 'down' }, [{ t: T(850), armR: 'hold', expr: 'sly', dur: 0.4 }], { seed: 6 });
 const B03 = shot('B03', 834, 895, 'medium', (L, t) => {
-  const [dx, dy, dr] = drift(t, { amp: 3 }), M = Mz(660, 1380, 540, 900, 1.35 * push(t, T(834), T(895), 0.06), { dx, dy, rot: dr });
-  return fire(L, t, M, { hertha: hB03(t), kemal: kB03(t), du: { ...dp0, x: 220 } });
+  const [dx, dy, dr] = drift(t, { amp: 3 }), M = Mz(590, 1380, 540, 900, 1.05 * push(t, T(834), T(895), 0.05), { dx, dy, rot: dr });
+  return fire(L, t, M, { hertha: hB03(t), kemal: kB03(t), du: { ...dp0, x: 280 } });
 });
 
 // ------------------------------------------------------------ B04 (895-964) L10 „Kemal will deinen Karton.“
