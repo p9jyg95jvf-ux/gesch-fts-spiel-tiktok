@@ -1,0 +1,22 @@
+{
+  "name": "milo-von-null",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TikTok-Mitmach-Serie: Ein Low-Poly-Mensch ist arm und arbeitet sich hoch. Die Community entscheidet in den Kommentaren.",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "validate": "node engine/validate.js",
+    "vote": "node engine/vote.js",
+    "build:render": "node render/build.js",
+    "render": "node render/render.js"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.64.1"
+  }
+}
