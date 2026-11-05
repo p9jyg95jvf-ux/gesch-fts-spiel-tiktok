@@ -48,7 +48,7 @@ const hB01 = take({ ...hp0, expr: 'neutral' }, [{ t: T(705), expr: 'happy', dur:
 const kB01 = take({ ...kp0 }, [{ t: T(735), expr: 'sly', armR: 'hips', dur: 0.4 }], { seed: 6 });
 const B01 = shot('B01', 695, 770, 'medium', (L, t) => {
   const [dx, dy, dr] = drift(t, { amp: 3 }), u = io(seg(t, T(695), T(770)));
-  const M = Mz(lerp(470, 880, u), 1400, 540, 900, 1.25, { dx, dy, rot: dr });
+  const M = Mz(670, 1400, 540, 900, 1.08 * push(t, T(695), T(770), 0.05), { dx, dy, rot: dr });
   return fire(L, t, M, { hertha: hB01(t), kemal: kB01(t) });
 });
 
@@ -163,7 +163,7 @@ const B10 = shot('B10', 1300, 1378, 'medium', (L, t) => {
 
 // ------------------------------------------------------------ B11 (1378-1439) L15 „Es ist deine Chefin.“
 // Frau Brandt kommt von rechts an der Autotür vorbei ans Geländer, den Umschlag in der Hand; sie bleibt stehen und schaut herunter.
-const bB11 = take({ x: 1300, y: 1200, s: 1.7, turn: -1.1, pose: 'walk', expr: 'neutral', armR: 'hold', armL: 'down' },
+const bB11 = take({ x: 940, y: 1200, s: 1.7, turn: -1.1, pose: 'walk', expr: 'neutral', armR: 'hold', armL: 'down' },
   [{ t: T(1378), x: 420, dur: 1.55, ease: 'out' }, { t: T(1418), pose: 'stand', turn: 0.15, nod: 0.2, expr: 'happy', dur: 0.4 }], { seed: 7, cadence: 1.5 });
 const B11 = dshot('B11', 1378, 1440, 'medium', (L, t) => {
   const [dx, dy, dr] = drift(t, { amp: 3 }), M = DM(1180, 930, 1.0 * push(t, T(1378), T(1440), 0.05), { dx, dy, rot: dr });

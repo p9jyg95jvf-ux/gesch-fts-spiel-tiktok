@@ -139,8 +139,8 @@ const A06 = { id: 'A06', t0: T(440), t1: T(544), motion: 'medium',
 
 // ------------------------------------------------------------ A07 (544-594) L06 „Ein Hund folgt dir.“
 // Abfindung trabt von links hinter dir her, dein Kopf dreht sich, er bleibt stehen. Schweif, Ohren: er hofft.
-const dogA07 = take({ x: -120, y: 1730, s: 1.7, turn: 0.9, pose: 'trot', expr: 'curious', earPerk: 1, wag: 0.5 },
-  [{ t: T(544), x: 260, dur: 1.2, ease: 'out' }, { t: T(584), pose: 'stand', expr: 'happy', dur: 0.2 }], { seed: 3 });
+const dogA07 = take({ x: 215, y: 1730, s: 1.7, turn: 0.9, pose: 'trot', expr: 'curious', earPerk: 1, wag: 0.5 },
+  [{ t: T(544), x: 285, dur: 1.2, ease: 'out' }, { t: T(584), pose: 'stand', expr: 'happy', dur: 0.2 }], { seed: 3 });
 const duA07 = take({ x: 470, y: 1700, s: 1.8, turn: 1.4, pose: 'walk', expr: 'worried', armR: 'hold', armL: 'hold' },
   [{ t: T(544), x: 520, dur: 0.9, ease: 'out' }, { t: T(566), pose: 'stand', turn: 0.9, headTurn: -0.7, expr: 'surprised', dur: 0.4 }], { seed: 1 });
 const A07 = { id: 'A07', t0: T(544), t1: T(595), motion: 'medium',

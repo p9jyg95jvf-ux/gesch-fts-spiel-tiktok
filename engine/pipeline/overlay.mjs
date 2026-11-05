@@ -266,7 +266,7 @@ function drawEnd(x, t) {
   const E = OV.end, u = clamp((t - T_END) / 0.2);
   layer(x, u, (y) => {
     if (E.kicker) text(y, [{ t: E.kicker, c: GREY }], 540, 380, 40, { sw: 0.12 });
-    y.save(); around(y, 540, 500, slam(t, T_END + 0.1)); const w = rich(`*${E.title}*`); text(y, join(w), 540, 540, fit(w, 130, 760, 70)); y.restore();
+    y.save(); around(y, 540, 500, slam(t, T_END + 0.1)); const w = rich(`*${E.title}*`); text(y, join(w), 540, 540, fit(w, 130, 600, 70)); y.restore();
     if (E.follow && t >= T_END + 0.5) { y.save(); around(y, 540, 660, popIn(t, T_END + 0.5)); pill(y, 540, 660, E.follow, 42, '#D8382E'); y.restore(); }
   });
 }
