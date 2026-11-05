@@ -1,24 +1,219 @@
 {
- "note": "The sound plan (python <engine>/py/mix.py --help). Beds set the place; every hit lands on a word ('word:LINE:word') or a picture moment ('cue:A01.stop' from a shot module's CUES). UI sounds follow the overlay automatically.",
+ "note": "Tonplan Folge 1 (nur eingebaute Synth-Sounds, keine Downloads). Betten setzen den Ort, jeder Treffer sitzt auf einem Wort oder Bildmoment. Alles endet hart auf dem letzten Frame (61,3 s).",
  "beds": [
   {
-   "sound": "synth:wind",
+   "sound": "synth:rain",
    "from": 0,
-   "to": 3.0,
+   "to": 41.13,
    "gain": -26,
    "fade": [
     0.2,
-    0.4
+    0.3
    ],
-   "note": "the place"
+   "note": "Dauerregen"
+  },
+  {
+   "sound": "synth:rain",
+   "from": 43.33,
+   "to": 61.3,
+   "gain": -30,
+   "fade": [
+    0.4,
+    0.02
+   ],
+   "note": "Regen, leiser, bis zum letzten Frame"
+  },
+  {
+   "sound": "synth:room_tone",
+   "from": 0,
+   "to": 8.3,
+   "gain": -33,
+   "fade": [
+    0.1,
+    0.3
+   ],
+   "note": "Büro-Eingang: Brummen der Leuchtreklame"
+  },
+  {
+   "sound": "synth:drone_warm",
+   "from": 14.67,
+   "to": 39.5,
+   "gain": -34,
+   "fade": [
+    0.6,
+    0.5
+   ],
+   "note": "Brücke: der warme Raum um das Feuer"
+  },
+  {
+   "sound": "synth:drone_dark",
+   "from": 45.93,
+   "to": 61.3,
+   "gain": -30,
+   "fade": [
+    0.4,
+    0.01
+   ],
+   "note": "Frau Brandt am Geländer"
   }
  ],
  "hits": [
   {
-   "sound": "synth:thud",
-   "at": "cue:A01.stop",
+   "sound": "synth:steps_soft",
+   "at": 0.1,
    "gain": -20,
-   "note": "the hero stops dead"
+   "note": "du stolperst aus der Tür"
+  },
+  {
+   "sound": "synth:thud",
+   "at": "cue:A01.slam",
+   "gain": -12,
+   "note": "die Tür knallt auf 'gefeuert'"
+  },
+  {
+   "sound": "synth:whoosh",
+   "at": "cue:A02.box",
+   "gain": -30,
+   "note": "Zoom auf den Karton"
+  },
+  {
+   "sound": "synth:thud",
+   "at": "cue:A03.heavy",
+   "gain": -22,
+   "note": "das Gewicht zieht dich runter"
+  },
+  {
+   "sound": "synth:steps_soft",
+   "at": "cue:A04.rain",
+   "gain": -22,
+   "note": "Schritte im Regen"
+  },
+  {
+   "sound": "synth:tick",
+   "at": "word:4:vierzig",
+   "gain": -22,
+   "note": "Kontostand tickt"
+  },
+  {
+   "sound": "synth:whoosh",
+   "at": "cue:A06.bridge",
+   "gain": -28,
+   "note": "Weitwinkel auf die Brücke"
+  },
+  {
+   "sound": "synth:bark",
+   "at": "cue:A07.bark",
+   "gain": -18,
+   "note": "der Hund bellt"
+  },
+  {
+   "sound": "synth:pop",
+   "at": "cue:A09.write",
+   "gain": -22,
+   "note": "der Schriftzug erscheint"
+  },
+  {
+   "sound": "synth:sparkle",
+   "at": "word:7:Abfindung",
+   "gain": -24,
+   "note": "der Name"
+  },
+  {
+   "sound": "synth:pop",
+   "at": "cue:B02.point",
+   "gain": -26,
+   "note": "Hertha zeigt"
+  },
+  {
+   "sound": "synth:whoosh",
+   "at": "cue:B04.reach",
+   "gain": -26,
+   "note": "Kemal greift"
+  },
+  {
+   "sound": "synth:whoosh",
+   "at": "cue:B05.jump",
+   "gain": -20,
+   "note": "Abfindung springt"
+  },
+  {
+   "sound": "synth:thud",
+   "at": "cue:B05.land",
+   "gain": -16,
+   "note": "Landung"
+  },
+  {
+   "sound": "synth:bark",
+   "at": "cue:B05.growl",
+   "gain": -20,
+   "lp": 900,
+   "note": "Knurren"
+  },
+  {
+   "sound": "synth:sparkle",
+   "at": "word:12:Tee",
+   "gain": -28,
+   "note": "der Tee"
+  },
+  {
+   "sound": "synth:pop",
+   "at": "word:13:Tausch",
+   "gain": -20,
+   "note": "Tausch"
+  },
+  {
+   "sound": "synth:whoosh_big",
+   "at": "cue:B08.car",
+   "gain": -16,
+   "note": "der Wagen rollt heran"
+  },
+  {
+   "sound": "synth:thud",
+   "at": "cue:B08.stop",
+   "gain": -20,
+   "note": "er hält"
+  },
+  {
+   "sound": "synth:click",
+   "at": "cue:B09.bino",
+   "gain": -20,
+   "note": "das Fernglas hebt sich"
+  },
+  {
+   "sound": "synth:steps_soft",
+   "at": "cue:B11.step",
+   "gain": -20,
+   "note": "Brandt kommt ans Geländer"
+  },
+  {
+   "sound": "synth:chime",
+   "at": "cue:B12.smile",
+   "gain": -30,
+   "note": "das Lächeln"
+  },
+  {
+   "sound": "synth:whoosh",
+   "at": "cue:B13.drop",
+   "gain": -34,
+   "note": "der Umschlag löst sich"
+  },
+  {
+   "sound": "synth:heartbeat",
+   "at": 43.4,
+   "gain": -20,
+   "note": "alles erstarrt: dein Herz"
+  },
+  {
+   "sound": "synth:heartbeat",
+   "at": 44.35,
+   "gain": -18,
+   "note": "alles erstarrt: dein Herz"
+  },
+  {
+   "sound": "synth:heartbeat",
+   "at": 45.3,
+   "gain": -16,
+   "note": "alles erstarrt: dein Herz"
   }
  ],
  "ui": "auto",
@@ -27,6 +222,6 @@
   "score": "score.json",
   "gain": -11,
   "duck": 6,
-  "note": "the original score: about 10-14 dB under the voice, full where nobody speaks"
+  "note": "Original-Score, ca. 10-14 dB unter der Stimme, voll wo niemand spricht"
  }
 }

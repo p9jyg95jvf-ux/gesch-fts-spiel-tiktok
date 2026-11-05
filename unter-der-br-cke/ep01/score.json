@@ -1,106 +1,33 @@
 {
- "note": "The episode's original score (engine/py/score.py; arclab score --ep EP renders it alone). Write it AFTER the shots and the timeline are locked: change the times to this episode's cuts and words, pick the key and chords for the mood, keep a silence before the reveal, build into the twist, drive under the vote and cut dead on the last frame. The times here are placeholders in seconds: replace them with this episode's cues and words (cue:A01.x, word:N:word, line:N).",
- "bpm": 100,
+ "note": "Unter der Brücke · Folge 1: Original-Musik der Engine, A-Moll, 90 BPM. Büro: kalte Drohne, einsame Glocke. Stadt: Regen-Pad, tickende Uhr. Brücke: das Pad wird warm (F, C, G), der Hund bringt eine kleine Glockenmelodie. Feuer: ein sanfter Puls (du gehörst dazu). Der Wagen: totale Stille. Dann ein Riser, ein Schlag auf 'Chefin', und die Abstimmung mit Trommeln und treibendem Bass, hart auf dem letzten Frame abgeschnitten.",
+ "bpm": 90,
  "hall": 2.6,
  "parts": [
-  {
-   "inst": "drone",
-   "note": "D1",
-   "from": 0,
-   "to": 9.0,
-   "gain": -15,
-   "fade": [
-    2.0,
-    0.3
-   ]
-  },
-  {
-   "inst": "pad",
-   "chords": [
-    [
-     0.2,
-     [
-      "D3",
-      "A3",
-      "C4",
-      "F4"
-     ]
-    ],
-    [
-     5.0,
-     [
-      "D3",
-      "A3",
-      "Eb4",
-      "F4"
-     ]
-    ]
-   ],
-   "from": 0.2,
-   "to": 9.0,
-   "bright": 0.3,
-   "gain": -14,
-   "fade": [
-    2.5,
-    0.3
-   ]
-  },
-  {
-   "inst": "bell",
-   "seq": [
-    [
-     0.9,
-     "D5"
-    ],
-    [
-     2.7,
-     "A4"
-    ]
-   ],
-   "gain": -17
-  },
-  {
-   "inst": "ostinato",
-   "notes": [
-    "D2",
-    "D2",
-    "D2",
-    "D2",
-    "D2",
-    "D2",
-    "F2",
-    "E2"
-   ],
-   "from": 9.0,
-   "to": 16.0,
-   "build": 1.2,
-   "gain": -10
-  },
-  {
-   "inst": "riser",
-   "note": "D2",
-   "from": 16.0,
-   "to": 19.0,
-   "gain": -7
-  },
-  {
-   "inst": "braam",
-   "note": "D1",
-   "at": 19.0,
-   "dur": 3.5,
-   "gain": 0
-  },
-  {
-   "inst": "toms",
-   "pattern": "X..x..x.x...x...",
-   "from": 21.0,
-   "gain": -9
-  },
-  {
-   "inst": "ticks",
-   "from": 21.0,
-   "gain": -25
-  }
+  { "inst": "drone", "note": "A1", "from": 0, "to": 14.6, "gain": -16, "fade": [1.5, 0.3] },
+  { "inst": "pad", "chords": [[0.2, ["A2", "E3", "A3", "C4"]], ["line:3", ["F2", "C3", "A3", "C4"]]], "from": 0.2, "to": 14.6, "bright": 0.3, "gain": -15, "fade": [2.5, 0.3] },
+  { "inst": "bell", "seq": [[3.5, "E5"], [5.3, "C5"], [8.7, "A4"], [11.0, "E5"], [13.2, "D5"]], "gain": -17 },
+  { "inst": "ticks", "from": "line:3", "to": 14.6, "gain": -28 },
+
+  { "inst": "pad", "chords": [[14.67, ["F2", "C3", "A3", "C4"]], ["line:6", ["F2", "C3", "F3", "A3", "C4"]], ["line:7", ["C3", "G3", "E4", "G4"]]], "from": 14.67, "to": 23.1, "bright": 0.5, "gain": -13, "fade": [0.5, 0.25] },
+  { "inst": "drone", "note": "F1", "from": 14.67, "to": 23.1, "gain": -17, "fade": [0.6, 0.2] },
+  { "inst": "bell", "seq": [["line:6", "A5"], ["word:6:folgt", "G5"], ["line:7", "E5"], ["word:7:Abfindung", "C6"]], "gain": -14 },
+
+  { "inst": "pad", "chords": [[23.17, ["F3", "A3", "C4", "E4"]], ["line:10", ["D3", "A3", "D4", "F4"]], ["line:12", ["C3", "G3", "C4", "E4"]], ["line:13", ["F3", "A3", "C4", "F4"]]], "from": 23.17, "to": 41.13, "bright": 0.6, "gain": -12, "fade": [0.5, 0.05] },
+  { "inst": "ostinato", "notes": ["F2", "F2", "F2", "F2", "C3", "C3", "C3", "C3", "D2", "D2", "D2", "D2", "C3", "C3", "C3", "C3"], "from": 23.17, "to": 41.13, "build": 1.0, "gain": -15 },
+  { "inst": "ticks", "from": "line:10", "to": 32.2, "gain": -26 },
+  { "inst": "bell", "seq": [["word:12:Tee", "A5"], ["word:13:Tausch", "C6"], ["line:13:end", "E5"]], "gain": -15 },
+
+  { "inst": "drone", "note": "A1", "from": 43.33, "to": 45.93, "gain": -14, "fade": [0.8, 0.02] },
+  { "inst": "riser", "note": "A2", "from": 44.2, "to": 45.93, "gain": -8 },
+  { "inst": "braam", "note": "A1", "at": "word:15:Chefin", "dur": 3.0, "gain": -3 },
+
+  { "inst": "drone", "note": "A1", "from": 45.93, "to": 61.3, "gain": -14, "fade": [0.3, 0.01] },
+  { "inst": "pad", "chords": [[45.93, ["A2", "E3", "A3", "C4"]], ["line:16", ["A2", "E3", "A3", "C4"]], [53.0, ["F2", "C3", "A3", "C4"]], [56.5, ["G2", "D3", "B3", "D4"]], [59.0, ["A2", "E3", "A3", "C4"]]], "from": 45.93, "to": 61.3, "bright": 0.6, "gain": -12, "fade": [0.3, 0.01] },
+  { "inst": "ostinato", "notes": ["A1", "A1", "A1", "A1", "A1", "A1", "A1", "A1", "F1", "F1", "F1", "F1", "F1", "F1", "F1", "F1", "G1", "G1", "G1", "G1", "G1", "G1", "G1", "G1", "A1", "A1", "A1", "A1", "A1", "A1", "A1", "A1"], "from": "line:16", "to": 61.3, "build": 2.0, "gain": -9 },
+  { "inst": "toms", "pattern": "X..x..x.x...x...", "from": "line:16", "to": 56.5, "build": 2.0, "gain": -10 },
+  { "inst": "toms", "pattern": "X.x.x.x.X.x.x.xx", "from": 56.5, "to": 61.3, "gain": -8 },
+  { "inst": "ticks", "from": "line:16", "to": 61.3, "gain": -26 },
+  { "inst": "riser", "note": "A3", "from": 57.5, "to": 61.3, "gain": -11 }
  ],
- "stops": []
+ "stops": [ { "from": 41.13, "to": 43.33, "fade_in": 0.02 } ]
 }
