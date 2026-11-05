@@ -59,15 +59,19 @@ try {
   } else {
     const frames = Math.round(episode.duration * fps);
     const dir = join(outDir, 'frames', epId);
-    rmSync(dir, { recursive: true, force: true }); mkdirSync(dir, { recursive: true });
+    // --range A,B: nur diese Sekunden neu rendern (vorhandene Bilder bleiben), danach alles zusammensetzen
+    const range = flag('--range')?.split(',').map(Number);
+    if (!range) rmSync(dir, { recursive: true, force: true });
+    mkdirSync(dir, { recursive: true });
+    const first = range ? Math.floor(range[0] * fps) : 0, last = range ? Math.min(frames, Math.ceil(range[1] * fps)) : frames;
     console.log(`${epId}: ${episode.duration}s, ${frames} Bilder @ ${fps} fps, ${workers} Worker`);
     const pages = await Promise.all(Array.from({ length: workers }, () => openPage()));
-    let next = 0, done = 0; const t0 = Date.now();
+    let next = first, done = 0; const t0 = Date.now();
     await Promise.all(pages.map(async ({ page }) => {
       for (;;) {
-        const i = next++; if (i >= frames) return;
+        const i = next++; if (i >= last) return;
         await shot(page, i / fps, join(dir, `${String(i).padStart(5, '0')}.jpg`), 93);
-        if (++done % 60 === 0) { const el = (Date.now() - t0) / 1000; console.log(`  ${done}/${frames}  (${(done / el).toFixed(1)} Bilder/s, noch ~${Math.round((frames - done) / (done / el))}s)`); }
+        if (++done % 60 === 0) { const el = (Date.now() - t0) / 1000; console.log(`  ${done}/${last - first}  (${(done / el).toFixed(1)} Bilder/s, noch ~${Math.round((last - first - done) / (done / el))}s)`); }
       }
     }));
     // Audio erzeugen

@@ -273,7 +273,7 @@ export function buildEnv(env, seed) {
     }
     // Passanten
     const ex = extras(scene, wide
-      ? [{ x0: -14, x1: 14, z: 7, sp: 0.9 }, { x0: 14, x1: -14, z: 9, sp: 0.8 }]
+      ? [{ x0: -14, x1: 14, z: -5.5, sp: 0.9 }, { x0: 14, x1: -14, z: -7, sp: 0.8 }]
       : [{ x0: -16, x1: 18, z: 3.9, sp: 0.8 }, { x0: 18, x1: -16, z: 5.3, sp: 0.7 }, { x0: -14, x1: 16, z: -1.4, sp: 0.5 }], r);
     updaters.push((t) => ex.forEach((e, i) => {
       const L = Math.abs(e.x1 - e.x0), dir = Math.sign(e.x1 - e.x0), d = ((t * e.sp + i * 6.7) % L);
