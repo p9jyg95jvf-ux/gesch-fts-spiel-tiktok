@@ -1,0 +1,7 @@
+{
+ "model": "eleven_multilingual_v2",
+ "note": "Cast once per series (Claude runs `arclab voices` and picks with you). voice = an ElevenLabs voice id; speed/stability/style = ElevenLabs settings; tempo = ffmpeg atempo after the take (1.0-1.12). chip = the name tag shown over a character's lines. The narrator is 'narr'.",
+ "cast": {
+  "narr": { "name": "(pick)", "voice": "VOICE_ID_HERE", "speed": 1.08, "stability": 0.45, "similarity": 0.8, "style": 0.25, "tempo": 1.06 }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "note": "Day 23 ep 1 score (original, made by engine/py/score.py). D minor, 100 BPM. Hospital: a low drone, a cold string pad and a lonely music-box bell between the lines; the pad turns dissonant at the chained doors. The dog: a pulse starts (you have somewhere to go). Outside: the pulse drops away, wide strings and a falling bell line over the empty town. 'Almost.': dead silence. Then a rising cluster builds through RULE #1 and the turn into a huge low hit on 'all of them'. The vote: drums, a driving bass (D, Bb, G, A), strings lifting when you turn to face them, a final build that is cut dead on the last frame.",
+ "bpm": 100,
+ "hall": 2.8,
+ "parts": [
+  { "inst": "drone", "note": "D1", "from": 0, "to": 15.33, "gain": -15, "fade": [2.5, 0.3] },
+  { "inst": "pad", "chords": [[0.2, ["D3", "A3", "C4", "F4"]], ["line:3", ["D3", "A3", "Eb4", "F4"]], ["line:4", ["D2", "Eb3", "A3", "D4"]]],
+    "from": 0.2, "to": 15.33, "bright": 0.3, "gain": -14, "fade": [3.0, 0.25] },
+  { "inst": "bell", "seq": [[0.9, "D5"], [2.75, "A4"], [6.45, "F5"], [8.95, "E5"], [12.35, "A4"]], "gain": -17 },
+
+  { "inst": "pad", "chords": [[15.33, ["Bb2", "F3", "D4"]], ["line:6", ["C3", "G3", "E4"]]], "from": 15.33, "to": 19.067, "bright": 0.5, "gain": -12, "fade": [0.4, 0.25] },
+  { "inst": "ostinato", "notes": ["D2", "D2", "D2", "D2", "D2", "D2", "F2", "E2"], "from": 15.33, "to": 19.067, "build": 1.2, "gain": -10 },
+  { "inst": "ticks", "from": "line:6", "to": 19.067, "gain": -27 },
+
+  { "inst": "pad", "chords": [[19.067, ["D3", "A3", "E4", "F4", "A4"]]], "from": 19.067, "to": 22.05, "bright": 0.6, "gain": -13, "fade": [0.25, 0.05] },
+  { "inst": "drone", "note": "D1", "from": 19.067, "to": 22.05, "gain": -16, "fade": [0.3, 0.05] },
+  { "inst": "bell", "seq": [[19.45, "A5"], [20.05, "F5"], [20.65, "E5"], [21.3, "D5"]], "gain": -14 },
+
+  { "inst": "pad", "chords": [[23.067, ["D2", "Eb2", "A2"]]], "from": 23.067, "to": "cue:B06.boom", "bright": 0.25, "gain": -17, "fade": [2.2, 0.03] },
+  { "inst": "riser", "note": "D2", "from": 23.067, "to": "cue:B06.boom", "gain": -7 },
+  { "inst": "braam", "note": "D1", "at": "cue:B06.boom", "dur": 3.6, "gain": 0 },
+
+  { "inst": "drone", "note": "D1", "from": 27.233, "to": 37.6, "gain": -14, "fade": [0.4, 0.01] },
+  { "inst": "pad", "chords": [[27.233, ["D3", "A3", "F4"]], [29.633, ["Bb2", "F3", "D4"]], [32.033, ["G2", "D3", "Bb3"]], [34.433, ["A2", "E3", "C#4"]], [36.833, ["D3", "A3", "F4"]]],
+    "from": 27.233, "to": 37.6, "bright": 0.5, "gain": -11, "fade": [0.3, 0.01] },
+  { "inst": "pad", "chords": [["cue:B07.face", ["Bb4", "D5", "F5"]], [34.433, ["A4", "C#5", "E5"]], [36.833, ["A4", "D5", "F5"]]],
+    "from": "cue:B07.face", "to": 37.6, "bright": 0.7, "gain": -15, "fade": [1.0, 0.01] },
+  { "inst": "ostinato", "notes": ["D2", "D2", "D2", "D2", "D2", "D2", "D2", "D2", "Bb1", "Bb1", "Bb1", "Bb1", "Bb1", "Bb1", "Bb1", "Bb1",
+    "G1", "G1", "G1", "G1", "G1", "G1", "G1", "G1", "A1", "A1", "A1", "A1", "A1", "A1", "A1", "A1", "D2", "D2", "D2", "D2", "D2", "D2", "D2", "D2"],
+    "from": 27.233, "to": 37.6, "build": 2.4, "gain": -8 },
+  { "inst": "toms", "pattern": "X..x..x.x...x...", "from": 27.233, "to": 34.433, "build": 2.4, "gain": -9 },
+  { "inst": "toms", "pattern": "X.x.x.x.X.x.x.xx", "from": 34.433, "to": 37.6, "gain": -7 },
+  { "inst": "ticks", "from": 29.633, "to": 37.6, "gain": -25 },
+  { "inst": "riser", "note": "D3", "from": 34.433, "to": 37.6, "gain": -10 }
+ ],
+ "stops": [ { "from": 22.05, "to": 23.067, "fade_in": 0.02 } ]
+}

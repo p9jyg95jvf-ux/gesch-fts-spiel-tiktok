@@ -1,8 +1,0 @@
-{
-  "episode": "ep001",
-  "day": 1,
-  "stats": { "money": 12, "energy": 40, "debt": 3000, "reputation": 10 },
-  "relations": { "dilara": 0, "bruno": 0, "krall": 0 },
-  "flags": [],
-  "history": []
-}

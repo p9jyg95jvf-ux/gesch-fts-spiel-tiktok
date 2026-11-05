@@ -1,0 +1,32 @@
+{
+ "note": "The sound plan (python <engine>/py/mix.py --help). Beds set the place; every hit lands on a word ('word:LINE:word') or a picture moment ('cue:A01.stop' from a shot module's CUES). UI sounds follow the overlay automatically.",
+ "beds": [
+  {
+   "sound": "synth:wind",
+   "from": 0,
+   "to": 3.0,
+   "gain": -26,
+   "fade": [
+    0.2,
+    0.4
+   ],
+   "note": "the place"
+  }
+ ],
+ "hits": [
+  {
+   "sound": "synth:thud",
+   "at": "cue:A01.stop",
+   "gain": -20,
+   "note": "the hero stops dead"
+  }
+ ],
+ "ui": "auto",
+ "ui_gain": 0,
+ "music": {
+  "score": "score.json",
+  "gain": -11,
+  "duck": 6,
+  "note": "the original score: about 10-14 dB under the voice, full where nobody speaks"
+ }
+}

@@ -1,0 +1,290 @@
+{
+ "note": "Day 23 ep 1 sound plan. Beds set the place (hospital hum, then wind and the dead); the music is the original score in score.json. Every hit lands on a word or a picture cue. Pixabay files live in ../sfx (logged in sfx/SOURCES.md); synth:* sounds come from the engine.",
+ "beds": [
+  {
+   "sound": "fluoro_hum.mp3",
+   "from": 0,
+   "to": 19.07,
+   "gain": -30,
+   "fade": [
+    0.05,
+    0.15
+   ],
+   "note": "the hospital's dying lights"
+  },
+  {
+   "sound": "heartbeat.mp3",
+   "from": 3.0,
+   "to": 6.9,
+   "gain": -22,
+   "fade": [
+    0.2,
+    0.6
+   ],
+   "note": "23 days: your heart"
+  },
+  {
+   "sound": "wind.mp3",
+   "from": 19.07,
+   "to": 37.6,
+   "gain": -23,
+   "fade": [
+    0.3,
+    0.05
+   ],
+   "note": "the empty street"
+  },
+  {
+   "sound": "synth:wind",
+   "from": 19.07,
+   "to": 37.6,
+   "gain": -30,
+   "fade": [
+    0.3,
+    0.05
+   ],
+   "note": "wind body"
+  },
+  {
+   "sound": "walker_moans.mp3",
+   "from": 25.4,
+   "to": 37.6,
+   "gain": -25,
+   "fade": [
+    0.6,
+    0.02
+   ],
+   "duck": 4,
+   "note": "the dead, all of them (cut by the last frame)"
+  }
+ ],
+ "hits": [
+  {
+   "sound": "thump.mp3",
+   "at": 0.0,
+   "gain": -15,
+   "a": "on",
+   "b": 1.0,
+   "hit_at": "start",
+   "note": "frame 0: a body hits the door"
+  },
+  {
+   "sound": "lamp_flicker.mp3",
+   "at": 0.25,
+   "gain": -25,
+   "a": "on",
+   "b": 1.2,
+   "hit_at": "start",
+   "note": "the light stutters"
+  },
+  {
+   "sound": "synth:whoosh",
+   "at": "cue:A01.jolt",
+   "gain": -30,
+   "note": "you jolt awake"
+  },
+  {
+   "sound": "walker_groan.mp3",
+   "at": "word:0:something",
+   "gain": -19,
+   "a": "on",
+   "b": 2.2,
+   "lp": 2500,
+   "hit_at": "start",
+   "offset": -0.1,
+   "note": "a groan behind the glass"
+  },
+  {
+   "sound": "thump.mp3",
+   "at": "cue:A01.thump",
+   "gain": -11,
+   "a": "on",
+   "b": 1.0,
+   "note": "the door shakes on 'door'"
+  },
+  {
+   "sound": "synth:whoosh",
+   "at": "line:1",
+   "gain": -30,
+   "offset": -0.08,
+   "note": "into the calendar"
+  },
+  {
+   "sound": "lamp_flicker.mp3",
+   "at": 6.0,
+   "gain": -27,
+   "a": 4.0,
+   "b": 1.0,
+   "hit_at": "start",
+   "note": "lights"
+  },
+  {
+   "sound": "steps_tile.mp3",
+   "at": "cue:A04.step",
+   "gain": -27,
+   "a": "on",
+   "b": 2.4,
+   "hit_at": "start",
+   "note": "bare feet on tile"
+  },
+  {
+   "sound": "steps_tile.mp3",
+   "at": "cue:A05.walk",
+   "gain": -29,
+   "a": 6.0,
+   "b": 2.8,
+   "hit_at": "start",
+   "note": "walking down the hall"
+  },
+  {
+   "sound": "walker_groan.mp3",
+   "at": 11.0,
+   "gain": -30,
+   "a": "on",
+   "b": 2.0,
+   "lp": 1600,
+   "hit_at": "start",
+   "note": "something far down the hall"
+  },
+  {
+   "sound": "thump.mp3",
+   "at": "cue:A06.push",
+   "gain": -12,
+   "a": "on",
+   "b": 1.0,
+   "note": "the doors bow on 'pushing'"
+  },
+  {
+   "sound": "synth:creak",
+   "at": "cue:A06.push",
+   "gain": -19,
+   "offset": 0.05,
+   "note": "the chain strains"
+  },
+  {
+   "sound": "walker_snap.mp3",
+   "at": "cue:A06.eye",
+   "gain": -15,
+   "a": "on",
+   "b": 1.5,
+   "note": "an eye in the gap on 'back'"
+  },
+  {
+   "sound": "synth:bark",
+   "at": "cue:B01.bark1",
+   "gain": -14,
+   "hit_at": "start",
+   "note": "the dog barks on 'dog'"
+  },
+  {
+   "sound": "synth:bark",
+   "at": "cue:B01.bark2",
+   "gain": -13,
+   "hit_at": "start",
+   "note": "and again on 'barks'"
+  },
+  {
+   "sound": "steps_tile.mp3",
+   "at": "cue:B02.run",
+   "gain": -24,
+   "a": 12.0,
+   "b": 1.6,
+   "rate": 1.15,
+   "hit_at": "start",
+   "note": "you run after it"
+  },
+  {
+   "sound": "breath_run.mp3",
+   "at": "cue:B02.run",
+   "gain": -26,
+   "a": "on",
+   "b": 2.0,
+   "hit_at": "start",
+   "note": "your breath"
+  },
+  {
+   "sound": "whoosh_big.mp3",
+   "at": "cue:B03.out",
+   "gain": -24,
+   "a": "on",
+   "b": 1.4,
+   "note": "out into the daylight"
+  },
+  {
+   "sound": "synth:whoosh",
+   "at": "cue:B04.almost",
+   "gain": -28,
+   "note": "punch on 'Almost'"
+  },
+  {
+   "sound": "walker_1.mp3",
+   "at": 22.4,
+   "gain": -30,
+   "a": "on",
+   "b": 1.8,
+   "lp": 1800,
+   "hit_at": "start",
+   "note": "a far-off groan"
+  },
+  {
+   "sound": "walker_growl.mp3",
+   "at": "cue:B05.turn",
+   "gain": -16,
+   "a": "on",
+   "b": 2.0,
+   "hit_at": "start",
+   "note": "it turns"
+  },
+  {
+   "sound": "walker_snap.mp3",
+   "at": "cue:B05.snarl",
+   "gain": -18,
+   "a": "on",
+   "b": 1.2,
+   "note": "its jaw opens"
+  },
+  {
+   "sound": "boom.mp3",
+   "at": "cue:B06.boom",
+   "gain": -11,
+   "a": "on",
+   "b": 2.5,
+   "note": "'all of them'"
+  },
+  {
+   "sound": "walker_2.mp3",
+   "at": 28.6,
+   "gain": -27,
+   "a": "on",
+   "b": 2.0,
+   "hit_at": "start",
+   "note": "a groan in the crowd"
+  },
+  {
+   "sound": "walker_1.mp3",
+   "at": 30.9,
+   "gain": -27,
+   "a": 2.0,
+   "b": 2.0,
+   "hit_at": "start",
+   "note": "another"
+  },
+  {
+   "sound": "walker_growl.mp3",
+   "at": 33.2,
+   "gain": -22,
+   "a": "on",
+   "b": 2.0,
+   "hit_at": "start",
+   "note": "they're close now"
+  }
+ ],
+ "ui": "auto",
+ "ui_gain": 0,
+ "music": {
+  "score": "score.json",
+  "gain": -11,
+  "duck": 6,
+  "note": "original score from score.json (engine/py/score.py): about 10-14 dB under the voice, full under the end card"
+ }
+}

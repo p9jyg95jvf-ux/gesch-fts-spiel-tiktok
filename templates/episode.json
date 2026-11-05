@@ -1,0 +1,21 @@
+{
+ "series": "{{SERIES}}",
+ "episode": {{N}},
+ "title": "EPISODE TITLE",
+ "fps": 30, "width": 1080, "height": 1920,
+ "grade": [
+  { "preset": "dusk", "f0": 0 }
+ ],
+ "segments": {
+  "A": { "range": [0, 89], "shots": "shots/shotsA.mjs" }
+ },
+ "overlay": {
+  "hud": { "from": 2.0, "tag": "DAY 1", "clock": [[0, "6:40 PM"]], "place": [[0, "THE HILL"]], "pill": "EP {{N}}" },
+  "cards": { "chip": true },
+  "avoid": [],
+  "vote": { "title": "WHAT DO YOU DO?" },
+  "end": { "kicker": "{{SERIES}} · DAY 1", "title": "EPISODE 2", "follow": "FOLLOW FOR EPISODE 2" },
+  "stat": { "title": "LAST EPISODE · YOUR VOTE" }
+ },
+ "_help": "grade: the colour script, one chapter per change of place/mood, f0 = the frame of a cut (presets: day, golden, overcast, dusk, night, lamplit, interior, storm, threat, forest, memory). segments: set after the voice is locked (BRIEF.md splits the frames between builders; every frame 0..frames-1 in exactly one segment)."
+}

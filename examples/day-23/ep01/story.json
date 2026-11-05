@@ -1,0 +1,79 @@
+{
+ "title": "You Slept Through It",
+ "episode": 1,
+ "logline": "You wake from a coma in an empty hospital, 23 days into the end of the world. The doors are chained, something is pushing back, and the only one who came for you is a stray dog.",
+ "lead": 0.05,
+ "line_gap": 0.28,
+ "tail": 3.4,
+ "beats": [
+  {
+   "gap": 0,
+   "scene": "FRAME 0 IS ACTION. A dim hospital room, the light flickering. The door's frosted glass: a dark shape behind it, the handle rattling. You jolt upright in the bed (hospital gown, bandage).",
+   "lines": [
+    { "speaker": "narr", "text": "You wake up. Something is at the door.", "captions": "You wake up.|!Something!|is at the door." }
+   ]
+  },
+  {
+   "gap": 0.3,
+   "scene": "The wall calendar: the days crossed out, 23 circled hard. Wilted flowers by the bed; dust on everything.",
+   "lines": [
+    { "speaker": "narr", "text": "Twenty-three days. That's how long you slept.", "captions": "*23 days*.|That's how long|you slept." }
+   ]
+  },
+  {
+   "gap": 0.3,
+   "scene": "You open the door: the hallway is empty. A tipped-over wheelchair, papers on the floor, lights dying one by one.",
+   "lines": [
+    { "speaker": "narr", "text": "And nobody came to wake you.", "captions": "And nobody came|to *wake you*." }
+   ]
+  },
+  {
+   "gap": 0.35,
+   "scene": "Down the long hallway: double doors at the end, chained and padlocked. Grey fingers curl through the gap. The chain jumps.",
+   "lines": [
+    { "speaker": "narr", "text": "At the end of the hall, the doors are chained.", "captions": "At the end of the hall,|the doors are *chained*." },
+    { "speaker": "narr", "text": "And something is pushing back.", "captions": "And something|is !pushing back!." }
+   ]
+  },
+  {
+   "gap": 0.4,
+   "scene": "A bark. In a side doorway: a scruffy shepherd dog with a red bandana. It barks again, then bolts for the stairs.",
+   "lines": [
+    { "speaker": "narr", "text": "Then a dog barks.", "captions": "Then a *dog*|barks." },
+    { "speaker": "narr", "text": "It knows the way out.", "captions": "It knows|the *way out*." }
+   ]
+  },
+  {
+   "gap": 0.35,
+   "scene": "Outside, morning: you and the dog on Main Street. Abandoned cars, a police car, a school bus, shop signs. Nobody. Then, far down the street, one figure.",
+   "lines": [
+    { "speaker": "narr", "text": "Outside, the whole town is empty.", "captions": "Outside,|the whole town|is *empty*." },
+    { "speaker": "narr", "text": "Almost.", "captions": "!Almost!." }
+   ]
+  },
+  {
+   "gap": 0.6,
+   "card": "RULE #1 · STAY UNSEEN",
+   "scene": "The figure in the street turns its head: grey skin, white eyes. Then, all along Main Street, more heads turn toward you.",
+   "lines": [
+    { "speaker": "narr", "text": "One turns. Then all of them.", "captions": "One turns.|Then !all of them!." }
+   ]
+  },
+  {
+   "gap": 0.5,
+   "scene": "THE VOTE: you and the dog in the street, the walkers coming slowly from far behind; the police car to one side, the bus to the other, the hospital doors behind you.",
+   "lines": [
+    { "speaker": "narr", "text": "Run for the police car. Hide in the bus. Or go back inside.", "captions": "", "vote": true },
+    { "speaker": "narr", "text": "Comment one, two or three.", "captions": "", "cmt": true }
+   ]
+  }
+ ],
+ "vote": {
+  "title": "WHAT DO YOU DO?",
+  "options": [
+   { "n": 1, "label": "THE POLICE CAR", "tag": "MAYBE THE KEYS ARE IN IT", "say": "run", "col": "#2F6FD0" },
+   { "n": 2, "label": "THE BUS", "tag": "IT'S CLOSER", "say": "hide", "col": "#E0A030" },
+   { "n": 3, "label": "BACK INSIDE", "tag": "THE CHAIN WON'T HOLD", "say": "go", "col": "#D8382E" }
+  ]
+ }
+}

@@ -1,0 +1,122 @@
+[
+ {
+  "name": "fluoro_hum",
+  "use": "hospital hum bed",
+  "title": "Fluorescent light hum sound effect",
+  "author": "freesound_community",
+  "secs": 19,
+  "page": "https://pixabay.com/sound-effects/household-fluorescent-light-hum-31094/"
+ },
+ {
+  "name": "lamp_flicker",
+  "use": "the failing lights",
+  "title": "Light switch and flickering fluorescent bulb sound effect",
+  "author": "freesound_community",
+  "secs": 20,
+  "page": "https://pixabay.com/sound-effects/film-special-effects-light-switch-fluorescent-flickering-electric-bulb-banff-190107-79289/"
+ },
+ {
+  "name": "walker_groan",
+  "use": "behind the door",
+  "title": "Zombie groan horror sound effect",
+  "author": "freesound_community",
+  "secs": 5,
+  "page": "https://pixabay.com/sound-effects/horror-zombie-groan-95051/"
+ },
+ {
+  "name": "walker_moans",
+  "use": "the crowd",
+  "title": "Zombie moans horror sound effect",
+  "author": "freesound_community",
+  "secs": 16,
+  "page": "https://pixabay.com/sound-effects/horror-zombie-moans-29924/"
+ },
+ {
+  "name": "walker_snap",
+  "use": "the eye / the turn",
+  "title": "Zombie Voice - Growl",
+  "author": "PhatPhrogStudio",
+  "secs": 2,
+  "page": "https://pixabay.com/sound-effects/horror-zombie-voice-growl-477834/"
+ },
+ {
+  "name": "walker_1",
+  "use": "a walker",
+  "title": "Zombie Sound 2",
+  "author": "DRAGON-STUDIO",
+  "secs": 8,
+  "page": "https://pixabay.com/sound-effects/horror-zombie-sound-2-357976/"
+ },
+ {
+  "name": "walker_2",
+  "use": "a walker",
+  "title": "Zombie Sound",
+  "author": "DRAGON-STUDIO",
+  "secs": 8,
+  "page": "https://pixabay.com/sound-effects/horror-zombie-sound-357975/"
+ },
+ {
+  "name": "walker_growl",
+  "use": "the face reveal",
+  "title": "Horrific zombie growl horror sound effect",
+  "author": "freesound_community",
+  "secs": 4,
+  "page": "https://pixabay.com/sound-effects/horror-horrific-zombie-growl-107090/"
+ },
+ {
+  "name": "heartbeat",
+  "use": "tension",
+  "title": "Heartbeat Sound",
+  "author": "DRAGON-STUDIO",
+  "secs": 21,
+  "page": "https://pixabay.com/sound-effects/film-special-effects-heartbeat-sound-372448/"
+ },
+ {
+  "name": "boom",
+  "use": "hits",
+  "title": "Cinematic Boom 01",
+  "author": "DRAGON-STUDIO",
+  "secs": 3,
+  "page": "https://pixabay.com/sound-effects/film-special-effects-cinematic-boom-01-414572/"
+ },
+ {
+  "name": "thump",
+  "use": "door thump / card",
+  "title": "Low Thumpy Kick Reverb Hit",
+  "author": "Black_Kumizhi",
+  "secs": 2,
+  "page": "https://pixabay.com/sound-effects/technology-low-thumpy-kick-reverb-hit-494833/"
+ },
+ {
+  "name": "breath_run",
+  "use": "your breathing",
+  "title": "Heavy breathing sound effect - type 01, realistic panting",
+  "author": "RibhavAgrawal",
+  "secs": 8,
+  "page": "https://pixabay.com/sound-effects/people-heavy-breathing-sound-effect-type-01-294190/"
+ },
+ {
+  "name": "steps_tile",
+  "use": "running in the hall",
+  "title": "Footsteps, tile, male sneakers, scuffs sound effect",
+  "author": "freesound_community",
+  "secs": 42,
+  "page": "https://pixabay.com/sound-effects/household-footsteps-tile-male-sneakers-scuffs-33983/"
+ },
+ {
+  "name": "wind",
+  "use": "the empty street",
+  "title": "Wind rustling grass ambient sound effect",
+  "author": "DRAGON-STUDIO",
+  "secs": 28,
+  "page": "https://pixabay.com/sound-effects/nature-wind-rustling-grass-339094/"
+ },
+ {
+  "name": "whoosh_big",
+  "use": "transitions",
+  "title": "Whoosh Cinematic",
+  "author": "DRAGON-STUDIO",
+  "secs": 2,
+  "page": "https://pixabay.com/sound-effects/film-special-effects-whoosh-cinematic-376875/"
+ }
+]

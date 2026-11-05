@@ -1,0 +1,15 @@
+{
+ "model": "eleven_v4",
+ "note": "Cast once per series. narr = the narrator (speaks to 'you'). Voices are ElevenLabs premade voices every account has.",
+ "cast": {
+  "narr": {
+   "name": "Brian (premade: deep, resonant)",
+   "voice": "nPczCjzI2devNBz1zQrb",
+   "speed": 1.04,
+   "stability": 0.5,
+   "similarity": 0.8,
+   "style": 0.3,
+   "tempo": 1.07
+  }
+ }
+}

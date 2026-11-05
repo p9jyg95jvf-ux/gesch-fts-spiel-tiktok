@@ -1,0 +1,49 @@
+{
+ "title": "EPISODE TITLE",
+ "episode": {{N}},
+ "logline": "One sentence: the situation, the clock, the threat. (Spoiler-free version of it becomes the post caption.)",
+ "lead": 0.05,
+ "line_gap": 0.28,
+ "tail": 3.4,
+ "beats": [
+  {
+   "gap": 0,
+   "scene": "FRAME 0 IS ACTION: what we see on the first frame (the threat already in frame).",
+   "lines": [
+    { "speaker": "narr", "text": "Seven words or fewer, present tense, second person.", "captions": "Seven words|or *fewer*." }
+   ]
+  },
+  {
+   "gap": 0.3,
+   "scene": "What we see while this is said (one clear picture per line).",
+   "lines": [
+    { "speaker": "narr", "text": "A short line that names what is on screen.", "captions": "A short line|that names *what's on screen*." }
+   ]
+  },
+  {
+   "gap": 0.5,
+   "card": "CLUE #1",
+   "scene": "A beat that opens with a card (optional).",
+   "lines": [
+    { "speaker": "narr", "text": "The clue, said plainly.", "captions": "The *clue*,|said !plainly!." }
+   ]
+  },
+  {
+   "gap": 0.5,
+   "scene": "THE VOTE: a calm wide; faces above y 760, keep y 800-1440 clear for the vote title and pills.",
+   "lines": [
+    { "speaker": "narr", "text": "Option one. Option two. Or option three.", "captions": "", "vote": true },
+    { "speaker": "narr", "text": "Comment one, two or three.", "captions": "", "cmt": true }
+   ]
+  }
+ ],
+ "vote": {
+  "title": "WHAT DO YOU DO?",
+  "options": [
+   { "n": 1, "label": "OPTION ONE", "tag": "A FELT STAKE", "say": "option", "col": "#2FAF6A" },
+   { "n": 2, "label": "OPTION TWO", "tag": "A FELT STAKE", "say": "option", "col": "#E0563C" },
+   { "n": 3, "label": "OPTION THREE", "tag": "A FELT STAKE", "say": "option", "col": "#3E7BD6" }
+  ]
+ },
+ "_help": "captions: '|' splits chunks (1-4 words each), *word* = yellow (key noun / new info), !word! = red (danger / twist). A line with \"stat\": true and \"slot\": 4.4 reads last episode's vote from stats.json ({TOTAL}, {P1}.., {WINNER}). say = the first word of that option as spoken in the vote line (the pill pops on it). Delete this _help key if you like."
+}

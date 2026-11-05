@@ -1,0 +1,12 @@
+{
+  "name": "arc-lab-series-engine",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Arc Lab Series Skill: code-drawn animation engine (look engine, character system, pipeline).",
+  "type": "module",
+  "license": "SEE LICENSE IN ../LICENSE.md",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@napi-rs/canvas": "1.0.10"
+  }
+}

@@ -1,0 +1,21 @@
+{
+ "series": "Day 23",
+ "episode": 1,
+ "title": "You Slept Through It",
+ "fps": 30, "width": 1080, "height": 1920,
+ "grade": [
+  { "preset": "threat", "f0": 0, "name": "hospital", "exposure": 1.42, "accent": 0.9, "sat": 0.8 },
+  { "preset": "golden", "f0": 572, "name": "street", "sat": 0.74, "curve": { "c": 1.46, "black": 0.05 }, "vig": 0.42 }
+ ],
+ "segments": {
+  "A": { "range": [0, 459], "shots": "shots/shotsA.mjs" },
+  "B": { "range": [460, 1127], "shots": "shots/shotsB.mjs" }
+ },
+ "overlay": {
+  "hud": { "from": 2.0, "tag": "DAY 23", "clock": [[0, "7:42 AM"], [19.0, "7:44 AM"]], "place": [[0, "ASHBY CREEK GENERAL"], [19.066, "MAIN STREET"]], "pill": "PART 1" },
+  "cards": { "chip": true },
+  "avoid": [],
+  "vote": { "title": "WHAT DO YOU DO?" },
+  "end": { "kicker": "DAY 23 · ASHBY CREEK", "title": "PART 2", "follow": "FOLLOW FOR PART 2" }
+ }
+}

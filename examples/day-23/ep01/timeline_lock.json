@@ -1,0 +1,349 @@
+{
+ "voices": {
+  "narr": {
+   "name": "Brian (premade: deep, resonant)",
+   "speed": 1.04,
+   "stability": 0.5,
+   "tempo": 1.07
+  }
+ },
+ "model": "eleven_v4",
+ "sr": 48000,
+ "duration": 37.6,
+ "frames": 1128,
+ "fps": 30,
+ "stats": {},
+ "lines": [
+  {
+   "i": 0,
+   "beat": 0,
+   "speaker": "narr",
+   "text": "You wake up. Something is at the door.",
+   "start": 0.05,
+   "end": 2.592,
+   "words": [
+    0.05,
+    0.274,
+    0.499,
+    1.246,
+    1.657,
+    1.77,
+    1.919,
+    2.069
+   ],
+   "chunks": [
+    {
+     "text": "You wake up.",
+     "start": 0.05,
+     "end": 1.246
+    },
+    {
+     "text": "!Something!",
+     "start": 1.246,
+     "end": 1.657
+    },
+    {
+     "text": "is at the door.",
+     "start": 1.657,
+     "end": 2.592
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "beat": 1,
+   "speaker": "narr",
+   "text": "Twenty-three days. That's how long you slept.",
+   "start": 3.172,
+   "end": 6.312,
+   "words": [
+    3.172,
+    3.77,
+    4.78,
+    4.966,
+    5.228,
+    5.415,
+    5.565
+   ],
+   "chunks": [
+    {
+     "text": "*23 days*.",
+     "start": 3.172,
+     "end": 3.77
+    },
+    {
+     "text": "That's how long",
+     "start": 3.77,
+     "end": 5.415
+    },
+    {
+     "text": "you slept.",
+     "start": 5.415,
+     "end": 6.312
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "beat": 2,
+   "speaker": "narr",
+   "text": "And nobody came to wake you.",
+   "start": 6.892,
+   "end": 8.836,
+   "words": [
+    6.892,
+    7.117,
+    7.677,
+    7.864,
+    8.051,
+    8.238
+   ],
+   "chunks": [
+    {
+     "text": "And nobody came",
+     "start": 6.892,
+     "end": 8.051
+    },
+    {
+     "text": "to *wake you*.",
+     "start": 8.051,
+     "end": 8.836
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "beat": 3,
+   "speaker": "narr",
+   "text": "At the end of the hall, the doors are chained.",
+   "start": 9.466,
+   "end": 12.307,
+   "words": [
+    9.466,
+    9.69,
+    9.84,
+    9.99,
+    10.064,
+    10.476,
+    10.812,
+    10.961,
+    11.261,
+    11.41
+   ],
+   "chunks": [
+    {
+     "text": "At the end of the hall,",
+     "start": 9.466,
+     "end": 10.961
+    },
+    {
+     "text": "the doors are *chained*.",
+     "start": 10.961,
+     "end": 12.307
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "beat": 3,
+   "speaker": "narr",
+   "text": "And something is pushing back.",
+   "start": 12.587,
+   "end": 14.681,
+   "words": [
+    12.587,
+    12.886,
+    13.26,
+    13.522,
+    13.97
+   ],
+   "chunks": [
+    {
+     "text": "And something",
+     "start": 12.587,
+     "end": 13.522
+    },
+    {
+     "text": "is !pushing back!.",
+     "start": 13.522,
+     "end": 14.681
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "beat": 4,
+   "speaker": "narr",
+   "text": "Then a dog barks.",
+   "start": 15.361,
+   "end": 16.781,
+   "words": [
+    15.361,
+    15.585,
+    15.735,
+    16.034
+   ],
+   "chunks": [
+    {
+     "text": "Then a *dog*",
+     "start": 15.361,
+     "end": 16.034
+    },
+    {
+     "text": "barks.",
+     "start": 16.034,
+     "end": 16.781
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "beat": 4,
+   "speaker": "narr",
+   "text": "It knows the way out.",
+   "start": 17.061,
+   "end": 18.482,
+   "words": [
+    17.061,
+    17.286,
+    17.51,
+    17.659,
+    17.809
+   ],
+   "chunks": [
+    {
+     "text": "It knows",
+     "start": 17.061,
+     "end": 17.659
+    },
+    {
+     "text": "the *way out*.",
+     "start": 17.659,
+     "end": 18.482
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "beat": 5,
+   "speaker": "narr",
+   "text": "Outside, the whole town is empty.",
+   "start": 19.112,
+   "end": 21.803,
+   "words": [
+    19.112,
+    19.934,
+    20.233,
+    20.532,
+    20.757,
+    20.906
+   ],
+   "chunks": [
+    {
+     "text": "Outside,",
+     "start": 19.112,
+     "end": 19.934
+    },
+    {
+     "text": "the whole town",
+     "start": 19.934,
+     "end": 20.906
+    },
+    {
+     "text": "is *empty*.",
+     "start": 20.906,
+     "end": 21.803
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "beat": 5,
+   "speaker": "narr",
+   "text": "Almost.",
+   "start": 22.083,
+   "end": 23.13,
+   "words": [
+    22.083
+   ],
+   "chunks": [
+    {
+     "text": "!Almost!.",
+     "start": 22.083,
+     "end": 23.13
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "beat": 6,
+   "speaker": "narr",
+   "text": "One turns. Then all of them.",
+   "start": 24.01,
+   "end": 26.552,
+   "words": [
+    24.01,
+    24.234,
+    25.356,
+    25.58,
+    25.73,
+    25.879
+   ],
+   "chunks": [
+    {
+     "text": "One turns.",
+     "start": 24.01,
+     "end": 25.356
+    },
+    {
+     "text": "Then !all of them!.",
+     "start": 25.356,
+     "end": 26.552
+    }
+   ],
+   "card": "RULE #1 · STAY UNSEEN"
+  },
+  {
+   "i": 10,
+   "beat": 7,
+   "speaker": "narr",
+   "text": "Run for the police car. Hide in the bus. Or go back inside.",
+   "start": 27.332,
+   "end": 31.444,
+   "words": [
+    27.332,
+    27.631,
+    27.743,
+    27.856,
+    28.229,
+    28.828,
+    29.014,
+    29.127,
+    29.201,
+    29.949,
+    30.099,
+    30.248,
+    30.472
+   ],
+   "chunks": [],
+   "vote": true
+  },
+  {
+   "i": 11,
+   "beat": 7,
+   "speaker": "narr",
+   "text": "Comment one, two or three.",
+   "start": 31.724,
+   "end": 34.192,
+   "words": [
+    31.724,
+    32.248,
+    32.921,
+    33.369,
+    33.594
+   ],
+   "chunks": [],
+   "cmt": true
+  }
+ ]
+}

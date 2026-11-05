@@ -1,5 +1,13 @@
+# Arc Lab Series Skill: things the engine makes on your computer (never part of the skill)
 node_modules/
+__pycache__/
+*.pyc
+.env
 out/
-render/dist/
-voices/
-.venv-tts/
+overlay/
+.cache/
+eleven_cache/
+*.wav
+*.mp3
+*.mp4
+*.mkv

@@ -1,0 +1,5 @@
+.env
+.cache/
+**/out/
+**/overlay/*.png
+node_modules/
