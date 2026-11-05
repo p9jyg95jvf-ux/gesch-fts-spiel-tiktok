@@ -69,7 +69,7 @@ const B03 = shot('B03', 834, 895, 'medium', (L, t) => {
 
 // ------------------------------------------------------------ B04 (895-964) L10 „Kemal will deinen Karton.“
 // Kemal tritt vor, greift nach dem Karton (f905-930); Du lehnst dich zurück und hältst fest.
-const kB04 = take({ ...kp0, x: 880 }, [{ t: T(895), x: 600, pose: 'walk', expr: 'angry', dur: 0.6, ease: 'out' }, { t: T(922), pose: 'stand', armR: 'reach', dur: 0.2 }], { seed: 6, cadence: 1.6 });
+const kB04 = take({ ...kp0, x: 780 }, [{ t: T(895), x: 600, pose: 'walk', expr: 'angry', dur: 0.6, ease: 'out' }, { t: T(922), pose: 'stand', armR: 'reach', dur: 0.2 }], { seed: 6, cadence: 1.6 });
 const dB04 = take({ ...dp0 }, [{ t: T(920), lean: -0.28, expr: 'scared', dur: 0.2 }, { t: T(940), lean: -0.18, dur: 0.3 }], { seed: 1 });
 const B04 = shot('B04', 895, 965, 'medium', (L, t) => {
   const [sx, sy, sr] = shake(t, T(924), { amp: 6 }), [dx, dy, dr] = drift(t, { amp: 3 }), M = Mz(520, 1380, 540, 880, 1.35, { dx: dx + sx, dy: dy + sy, rot: dr + sr });
