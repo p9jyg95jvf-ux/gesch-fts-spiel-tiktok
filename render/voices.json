@@ -1,0 +1,24 @@
+{
+  "Erzähler": {
+    "model": "de_DE-thorsten-medium",
+    "lengthScale": 0.95
+  },
+  "Milo": {
+    "model": "de_DE-karlsson-low",
+    "lengthScale": 0.85
+  },
+  "Bruno": {
+    "model": "de_DE-thorsten-medium",
+    "lengthScale": 0.85,
+    "pitchSemitones": -3.5
+  },
+  "Dilara": {
+    "model": "de_DE-kerstin-low",
+    "lengthScale": 0.88
+  },
+  "Henk": {
+    "model": "de_DE-karlsson-low",
+    "lengthScale": 1.0,
+    "pitchSemitones": -2.5
+  }
+}

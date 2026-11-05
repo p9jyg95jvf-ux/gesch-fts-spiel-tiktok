@@ -123,7 +123,7 @@ export function createOverlay(root, episode) {
       const w = win(tl, 0, D, 0.4, 0.3);
       recap.style.opacity = w.a;
       const part = (e, t0) => { const p = win(tl, t0, 99, 0.35, 0.01); e.style.opacity = p.a; e.style.transform = `translateY(${(1 - p.k) * 36}px)`; };
-      part(rTag, 0.1); part(rText, 0.4); part(rTag2, 2.6); part(rDec, 2.9);
+      part(rTag, 0.1); part(rText, 0.4); part(rTag2, 3.9); part(rDec, 4.2);
     }
 
     // Szenenübergang (kurzer Schwarzblitz)

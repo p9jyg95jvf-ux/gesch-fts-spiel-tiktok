@@ -2,7 +2,7 @@
   "id": "ep001",
   "number": 1,
   "title": "Ganz unten",
-  "summary": "Milo ist pleite, schläft an der Bushaltestelle und muss Herrn Kralls Eintreiber bis Freitag 100 € zahlen.",
+  "summary": "Milo ist pleite. Freitag muss er 100 € zahlen.",
   "fps": 30,
   "scenes": [
     {
@@ -333,22 +333,22 @@
           "text": "Hunger. 12 Euro. Plan: keiner."
         },
         {
-          "t": 5.4,
-          "d": 3.1,
+          "t": 5.0,
+          "d": 3.5,
           "kind": "speech",
           "who": "Bruno",
           "text": "Herr Krall lässt grüßen. 100 Euro. Freitag."
         },
         {
-          "t": 8.7,
-          "d": 2.2,
+          "t": 8.5,
+          "d": 2.4,
           "kind": "speech",
           "who": "Milo",
           "text": "Freitag?! Heute ist Montag!"
         },
         {
-          "t": 10.6,
-          "d": 1.4,
+          "t": 10.85,
+          "d": 1.1,
           "kind": "alert",
           "text": "Noch 4 Tage."
         }
@@ -527,14 +527,14 @@
         },
         {
           "t": 4.3,
-          "d": 2.6,
+          "d": 3.4,
           "kind": "speech",
           "who": "Dilara",
           "text": "Mein Spüler ist krank. 20 € für heute!"
         },
         {
-          "t": 7.3,
-          "d": 2.5,
+          "t": 7.8,
+          "d": 2.1,
           "kind": "narr",
           "text": "Drei Wege. Ein Montag."
         }

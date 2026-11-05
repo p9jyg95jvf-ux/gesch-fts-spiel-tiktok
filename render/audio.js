@@ -3,6 +3,7 @@
 import { writeFileSync } from 'node:fs';
 import { loadState, resolveEpisode } from '../engine/story.js';
 import { rng } from './src/util.js';
+import { buildVoice, wavInfo } from './tts.js';
 
 const [epId, outFile] = process.argv.slice(2);
 const SR = 44100;
@@ -100,6 +101,23 @@ if (voteScene()) {
   add(rs, (x) => { y += (0.01 + 0.25 * (x / 5)) * ((rand() * 2 - 1) - y); return y * (x / 5) ** 2 * 0.35; }, 5);
 }
 function voteScene() { const i = episode.scenes.findIndex((x) => x.vote); return i >= 0 ? { sc: episode.scenes[i], start: starts[i] } : null; }
+
+// ---- Sprache (Piper) darüberlegen, Musik/Geräusche währenddessen leiser (Ducking) ----
+const { lines: voiceLines, problems } = process.env.NO_TTS ? { lines: [], problems: [] } : buildVoice(episode);
+if (problems.length) { console.error('Sprache passt nicht:\n - ' + problems.join('\n - ')); process.exit(1); }
+const V = new Float32Array(N);
+for (const l of voiceLines) {
+  const w = wavInfo(l.file), i0 = Math.floor(l.start * SR);
+  for (let k = 0; k < w.samples.length; k++) { const j = i0 + Math.round(k * SR / w.sr); if (j < N) V[j] += w.samples[k] / 32768 * 1.15; }
+}
+let env = 0;
+const ATT = 1 - Math.exp(-1 / (SR * 0.04)), REL = 1 - Math.exp(-1 / (SR * 0.45));
+for (let i = 0; i < N; i++) {
+  const a = Math.abs(V[i]) > 0.01 ? 1 : 0;
+  env += (a - env) * (a > env ? ATT : REL);
+  const duck = 1 - 0.62 * env;
+  L[i] = L[i] * duck + V[i]; R[i] = R[i] * duck + V[i];
+}
 
 // Sanftes Ausblenden + Normalisieren + Weichzeichnen der Spitzen
 let peak = 0;
