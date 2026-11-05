@@ -124,7 +124,8 @@ export function buildEnv(env, seed) {
   const cfg = SKY[env.time];
   const scene = new THREE.Scene();
   scene.fog = new THREE.Fog(cfg.fog, 28, 120);
-  scene.add(skyDome(cfg));
+  const dome = skyDome(cfg);
+  scene.add(dome);
   const r = rng(seed);
   const updaters = [];
   const win = [];
@@ -283,6 +284,7 @@ export function buildEnv(env, seed) {
   }
 
   if (env.type === 'recap') {
+    scene.remove(dome);
     scene.background = new THREE.Color('#1c2342');
     scene.add(new THREE.HemisphereLight('#ffffff', '#445', 1.2));
     const d = new THREE.DirectionalLight('#ffdca8', 2.2); d.position.set(3, 5, 6); scene.add(d);

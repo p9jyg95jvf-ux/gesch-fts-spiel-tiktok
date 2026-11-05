@@ -6,7 +6,7 @@ python3 -m venv .venv-tts
 .venv-tts/bin/pip install -q piper-tts
 BASE=https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE
 mkdir -p voices
-for v in thorsten/medium/de_DE-thorsten-medium karlsson/low/de_DE-karlsson-low kerstin/low/de_DE-kerstin-low; do
+for v in thorsten/high/de_DE-thorsten-high thorsten_emotional/medium/de_DE-thorsten_emotional-medium; do
   f=voices/$(basename "$v")
   [ -f "$f.onnx" ] || curl -sSL --fail -o "$f.onnx" "$BASE/$v.onnx"
   [ -f "$f.onnx.json" ] || curl -sSL --fail -o "$f.onnx.json" "$BASE/$v.onnx.json"

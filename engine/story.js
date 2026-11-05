@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 export const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 export const MIN_SECONDS = 61;
 export const MAX_SECONDS = 70;
-export const RECAP_SECONDS = 7;
+export const RECAP_SECONDS = 8;
 
 export const episodePath = (id) => join(ROOT, 'story', 'episodes', `${id}.json`);
 export const statePath = () => join(ROOT, 'state', 'state.json');
@@ -81,6 +81,8 @@ export function validateEpisode(ep) {
   const last = ep.scenes[ep.scenes.length - 1];
   if (!last || !last.vote) errors.push('Letzte Szene muss die Abstimmung ("vote") enthalten');
   if (!ep.summary) errors.push('Folge braucht "summary" (für den Rückblick der nächsten Folge)');
+  else if (ep.summary.length > 55) errors.push(`"summary" ist ${ep.summary.length} Zeichen lang – max. 55, sonst passt der gesprochene Rückblick nicht`);
+  for (const o of ep.choice?.options ?? []) if (o.recap && o.recap.length > 40) errors.push(`Option ${o.key}: "recap" max. 40 Zeichen`);
   for (const sc of ep.scenes) {
     for (const c of sc.captions ?? []) {
       if (c.t + c.d > sc.duration + 1e-6) errors.push(`Szene ${sc.id}: Untertitel "${c.text}" endet nach der Szene`);

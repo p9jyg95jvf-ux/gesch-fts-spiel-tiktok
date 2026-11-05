@@ -13,8 +13,8 @@ stimmt die Community in den Kommentaren ab, was als Nächstes passiert.
 2. **Auf TikTok posten**, Abstimmung läuft in den Kommentaren (A / B / C)
 3. **Ergebnis eintragen** – `npm run vote -- ep001 --votes A=12,B=40,C=7` (oder direkt `npm run vote -- ep001 B`)
    Das aktualisiert `state/state.json` (Geld, Energie, Schulden, Ruf, Beziehungen).
-4. **Nächste Folge schreiben** – `story/episodes/ep002.json`. Der **Rückblick** („Bisher … / Du hast entschieden …“)
-   wird automatisch aus der Abstimmung vorangestellt (7 s, in die Gesamtlänge eingerechnet).
+4. **Nächste Folge schreiben** – `story/episodes/ep002.json`. Der **Rückblick** („Was bisher geschah … / Ihr habt entschieden …“)
+   wird automatisch aus der Abstimmung vorangestellt (8 s, in die Gesamtlänge eingerechnet).
 5. Wieder bei 1.
 
 ## Einrichtung
@@ -27,7 +27,7 @@ npm run validate         # prüft Länge und Pflichtfelder aller Folgen
 ```
 
 Für die Sprachausgabe einmalig `bash scripts/setup-tts.sh` (installiert Piper und lädt die deutschen Stimmen nach `voices/`).
-Stimmen pro Figur: `render/voices.json`. Prüfen, ob alle Zeilen ins Zeitfenster passen: `node render/tts.js ep001`.
+Milo erzählt in Ich-Form mit der Piper-Stimme „Thorsten“ (für Gefühle: `"emotion": "sleepy" | "surprised" | "angry" | "amused" | "whisper"` an einer Zeile); Nebenfiguren brabbeln in Sprechblasen. Einstellungen: `render/voices.json`. Prüfen, ob alle Zeilen ins Zeitfenster passen: `node render/tts.js ep001`.
 
 Benötigt Node 22, Python 3, ffmpeg und Chromium (lokal per `CHROMIUM_PATH=/pfad/zu/chromium` oder `npx playwright-core install chromium`).
 

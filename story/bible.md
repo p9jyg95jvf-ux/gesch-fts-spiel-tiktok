@@ -3,8 +3,12 @@
 **Format:** TikTok-Serie, jede Folge **61–70 Sekunden** (Ziel: 64 s), 9:16, Low-Poly-3D.
 **Mechanik:** Am Ende jeder Folge steht eine Entscheidung mit 3 Optionen (A/B/C). Die Community stimmt
 in den Kommentaren ab. Die Gewinner-Option bestimmt die nächste Folge.
-**Rückblick-Pflicht:** Jede Folge ab Nr. 2 beginnt mit einem kurzen „Bisher"-Teil (ca. 7 s):
+**Rückblick-Pflicht:** Jede Folge ab Nr. 2 beginnt mit einem kurzen „Bisher"-Teil (8 s):
 was passiert ist + was die Community entschieden hat.
+**Erzählweise:** Milo erzählt **selbst, in Ich-Form**, und spricht die Zuschauer direkt an („Ihr entscheidet.“).
+Gesprochen wird wie ein echter Mensch redet: ganze, lockere Sätze, keine Telegramm-Fragmente („Hunger. 12 Euro.“ klingt
+vorgelesen). Untertitel = gesprochener Text. Nebenfiguren reden in Sprechblasen mit Figuren-Gebrabbel (Spiel-Stil),
+Milo selbst spricht seine Dialogzeilen mit Gefühl (verschlafen, überrascht …).
 **Ton:** Gemischt. Meist locker, trockener Erzähler mit Haltung – aber Entscheidungen haben echte Konsequenzen
 (Schulden, Freunde, Ruf). Humor darf nie die Not kleinreden, Not darf nie den Humor ersticken.
 
@@ -46,5 +50,5 @@ Sein Schwachpunkt: Er sagt zu schnell Ja. Seine Stärke: Er steht immer wieder a
 3. **Jede Option der Abstimmung ist verlockend** und hat einen Preis (kein „richtiger" Weg).
 4. **Wenig Text pro Bildschirm**, große Schrift, 9:16-Safe-Area beachten (TikTok-UI unten/rechts frei lassen).
 5. **Rückblick kurz** (max. 2 Sätze), danach sofort weiter.
-6. **Ende = Frage + klare Abstimmungsanweisung** („Schreib A, B oder C in die Kommentare").
+6. **Ende = Milo fragt die Zuschauer** + klare Abstimmungsanweisung („Schreibt mir A, B oder C in die Kommentare!").
 7. **Länge hart prüfen:** `npm run validate` bricht ab, wenn eine Folge nicht 61–70 s lang ist.

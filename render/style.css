@@ -22,7 +22,7 @@ html, body { width: 1080px; height: 1920px; overflow: hidden; background: #000; 
 .title-tag { margin-top: 56px; font-weight: 700; font-size: 54px; color: #fff; text-shadow: 0 4px 0 #000, 0 0 30px rgba(0,0,0,.8); letter-spacing: 3px; }
 
 .cap { position: absolute; left: 50%; opacity: 0; width: 900px; text-align: center; }
-.cap-narr { top: 1210px; font-weight: 800; font-size: 76px; line-height: 1.12; color: #fff; -webkit-text-stroke: 12px #0e1226; paint-order: stroke fill; text-shadow: 0 6px 0 #0e1226; }
+.cap-narr { top: 1150px; font-weight: 800; font-size: 68px; line-height: 1.12; color: #fff; -webkit-text-stroke: 12px #0e1226; paint-order: stroke fill; text-shadow: 0 6px 0 #0e1226; }
 .cap-alert { top: 1050px; width: auto; white-space: nowrap; font-weight: 800; font-size: 140px; color: #ffe14d; -webkit-text-stroke: 16px #8f1d1d; paint-order: stroke fill; text-shadow: 0 10px 0 #8f1d1d; left: 50%; }
 .cap-speech { top: 480px; width: 900px; background: #fff; border-radius: 44px; padding: 54px 44px 40px; box-shadow: 0 12px 0 rgba(0,0,0,.28); }
 .speech-text { font-weight: 800; font-size: 66px; line-height: 1.12; color: #151a2e; }

@@ -3,7 +3,7 @@
 import { writeFileSync } from 'node:fs';
 import { loadState, resolveEpisode } from '../engine/story.js';
 import { rng } from './src/util.js';
-import { buildVoice, wavInfo } from './tts.js';
+import { buildVoice, wavInfo, syllables } from './tts.js';
 
 const [epId, outFile] = process.argv.slice(2);
 const SR = 44100;
@@ -106,7 +106,34 @@ function voteScene() { const i = episode.scenes.findIndex((x) => x.vote); return
 const { lines: voiceLines, problems } = process.env.NO_TTS ? { lines: [], problems: [] } : buildVoice(episode);
 if (problems.length) { console.error('Sprache passt nicht:\n - ' + problems.join('\n - ')); process.exit(1); }
 const V = new Float32Array(N);
+// Figuren-Gebrabbel (Silben mit Vokal-Formanten, wie in Spielen)
+function babble(l) {
+  const b = l.babble, n = Math.max(2, syllables(l.text)), r2 = rng(l.text.length * 131 + Math.round(l.start * 100));
+  const slen = l.dur / n;
+  const vowels = { deep: [[450, 900], [380, 750], [550, 1000]], bright: [[700, 1700], [500, 2100], [400, 2300]], wobbly: [[500, 1100], [420, 900], [600, 1300]] }[b.tone] ?? [[600, 1200]];
+  for (let k = 0; k < n; k++) {
+    const t0 = l.start + k * slen + (r2() - 0.5) * slen * 0.15;
+    const len = slen * (0.55 + r2() * 0.3);
+    const contour = 1 + 0.12 * Math.sin((k / n) * Math.PI) - (k === n - 1 ? 0.1 : 0);
+    const f0 = b.pitch * contour * (1 + (r2() - 0.5) * 0.18);
+    const [F1, F2] = vowels[Math.floor(r2() * vowels.length)];
+    const i0 = Math.floor(t0 * SR), i1 = Math.min(N, i0 + Math.floor(len * SR));
+    for (let i = Math.max(0, i0); i < i1; i++) {
+      const t = (i - i0) / SR, x = t / len;
+      const vib = b.tone === 'wobbly' ? 1 + 0.04 * Math.sin(2 * Math.PI * 6 * t) : 1;
+      const f = f0 * vib;
+      let v = 0;
+      for (let h = 1; h * f < 4000; h++) {
+        const fh = h * f;
+        const w = Math.exp(-(((fh - F1) / 160) ** 2)) + 0.6 * Math.exp(-(((fh - F2) / 260) ** 2)) + 0.25 / h;
+        v += Math.sin(2 * Math.PI * fh * t) * w;
+      }
+      V[i] += v * Math.min(1, x / 0.08) * Math.min(1, (1 - x) / 0.35) * 0.12;
+    }
+  }
+}
 for (const l of voiceLines) {
+  if (l.babble) { babble(l); continue; }
   const w = wavInfo(l.file), i0 = Math.floor(l.start * SR);
   for (let k = 0; k < w.samples.length; k++) { const j = i0 + Math.round(k * SR / w.sr); if (j < N) V[j] += w.samples[k] / 32768 * 1.15; }
 }

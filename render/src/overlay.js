@@ -59,7 +59,7 @@ export function createOverlay(root, episode) {
   const rBox = el('recap-box', recap);
   const rTag = el('recap-tag', rBox, 'BISHER');
   const rText = el('recap-text', rBox);
-  const rTag2 = el('recap-tag recap-tag2', rBox, 'DU HAST ENTSCHIEDEN');
+  const rTag2 = el('recap-tag recap-tag2', rBox, 'IHR HABT ENTSCHIEDEN');
   const rDec = el('recap-dec', rBox);
   const recapScene = timeline.find((s) => s.sc.recap);
   if (recapScene) { rText.textContent = recapScene.sc.recap.summary; rDec.textContent = recapScene.sc.recap.decision; }
@@ -123,7 +123,7 @@ export function createOverlay(root, episode) {
       const w = win(tl, 0, D, 0.4, 0.3);
       recap.style.opacity = w.a;
       const part = (e, t0) => { const p = win(tl, t0, 99, 0.35, 0.01); e.style.opacity = p.a; e.style.transform = `translateY(${(1 - p.k) * 36}px)`; };
-      part(rTag, 0.1); part(rText, 0.4); part(rTag2, 3.9); part(rDec, 4.2);
+      part(rTag, 0.1); part(rText, 0.4); part(rTag2, 4.3); part(rDec, 4.6);
     }
 
     // Szenenübergang (kurzer Schwarzblitz)

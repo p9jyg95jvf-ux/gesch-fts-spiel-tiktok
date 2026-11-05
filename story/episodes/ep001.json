@@ -2,7 +2,7 @@
   "id": "ep001",
   "number": 1,
   "title": "Ganz unten",
-  "summary": "Milo ist pleite. Freitag muss er 100 € zahlen.",
+  "summary": "Ich bin pleite und brauche bis Freitag 100 €.",
   "fps": 30,
   "scenes": [
     {
@@ -68,16 +68,16 @@
       },
       "captions": [
         {
-          "t": 3.9,
-          "d": 1.8,
+          "t": 2.4,
+          "d": 2.0,
           "kind": "narr",
-          "text": "Das ist Milo."
+          "text": "Das bin ich. Milo."
         },
         {
-          "t": 5.8,
-          "d": 3.0,
+          "t": 4.5,
+          "d": 4.4,
           "kind": "narr",
-          "text": "Gestern hatte er Job, Wohnung und Kühlschrank."
+          "text": "Gestern hatte ich noch einen Job, eine Wohnung und einen Kühlschrank."
         }
       ]
     },
@@ -169,22 +169,24 @@
       "captions": [
         {
           "t": 0.3,
+          "d": 3.6,
+          "kind": "narr",
+          "text": "Und heute? Heute schlafe ich an der Bushaltestelle."
+        },
+        {
+          "t": 4.1,
+          "d": 4.6,
+          "kind": "narr",
+          "text": "Mein Vermieter hat mich rausgeworfen. Den Kühlschrank hat er behalten."
+        },
+        {
+          "t": 8.9,
           "d": 2.9,
-          "kind": "narr",
-          "text": "Heute: eine Bushaltestelle."
-        },
-        {
-          "t": 3.3,
-          "d": 4.2,
-          "kind": "narr",
-          "text": "Der Vermieter warf ihn raus. Den Kühlschrank behielt er."
-        },
-        {
-          "t": 8.0,
-          "d": 3.4,
           "kind": "speech",
           "who": "Milo",
-          "text": "…Frühstück?"
+          "emotion": "sleepy",
+          "text": "…Frühstück?",
+          "say": "Frühstück?"
         }
       ]
     },
@@ -267,7 +269,27 @@
             },
             {
               "t": 5.0,
-              "d": 7,
+              "d": 3.3,
+              "anim": "idle",
+              "at": [
+                -2.4,
+                0
+              ],
+              "faceTo": "bruno"
+            },
+            {
+              "t": 8.3,
+              "d": 2.3,
+              "anim": "talk",
+              "at": [
+                -2.4,
+                0
+              ],
+              "faceTo": "bruno"
+            },
+            {
+              "t": 10.6,
+              "d": 1.4,
               "anim": "idle",
               "at": [
                 -2.4,
@@ -293,7 +315,7 @@
             },
             {
               "t": 2.6,
-              "d": 2.6,
+              "d": 2.4,
               "anim": "walk",
               "from": [
                 11,
@@ -305,9 +327,19 @@
               ]
             },
             {
-              "t": 5.2,
-              "d": 6.8,
+              "t": 5.0,
+              "d": 3.3,
               "anim": "talk",
+              "at": [
+                0.6,
+                0
+              ],
+              "faceTo": "milo"
+            },
+            {
+              "t": 8.3,
+              "d": 3.7,
+              "anim": "idle",
               "at": [
                 0.6,
                 0
@@ -328,29 +360,31 @@
       "captions": [
         {
           "t": 0.3,
-          "d": 3.2,
+          "d": 4.6,
           "kind": "narr",
-          "text": "Hunger. 12 Euro. Plan: keiner."
+          "text": "Zwölf Euro in der Tasche. Und dreitausend Euro Schulden bei Herrn Krall."
         },
         {
           "t": 5.0,
-          "d": 3.5,
+          "d": 3.2,
           "kind": "speech",
           "who": "Bruno",
-          "text": "Herr Krall lässt grüßen. 100 Euro. Freitag."
+          "text": "Herr Krall lässt grüßen. 100 Euro. Bis Freitag."
         },
         {
-          "t": 8.5,
-          "d": 2.4,
+          "t": 8.3,
+          "d": 2.3,
           "kind": "speech",
           "who": "Milo",
+          "emotion": "surprised",
           "text": "Freitag?! Heute ist Montag!"
         },
         {
-          "t": 10.85,
-          "d": 1.1,
+          "t": 10.6,
+          "d": 1.35,
           "kind": "alert",
-          "text": "Noch 4 Tage."
+          "text": "Noch 4 Tage.",
+          "say": "Noch vier Tage."
         }
       ]
     },
@@ -377,7 +411,7 @@
           ]
         },
         {
-          "t": 3.2,
+          "t": 2.8,
           "pos": [
             -1.2,
             2.0,
@@ -390,7 +424,7 @@
           ]
         },
         {
-          "t": 4.2,
+          "t": 3.8,
           "pos": [
             1.2,
             2.0,
@@ -403,7 +437,7 @@
           ]
         },
         {
-          "t": 6.8,
+          "t": 6.4,
           "pos": [
             1.0,
             2.1,
@@ -419,13 +453,13 @@
           "t": 10,
           "pos": [
             0,
-            2.4,
-            10.5
+            2.6,
+            8.0
           ],
           "look": [
             0,
-            1.8,
-            -3
+            1.2,
+            -8
           ]
         }
       ],
@@ -452,7 +486,7 @@
           "track": [
             {
               "t": 0,
-              "d": 4.2,
+              "d": 3.4,
               "anim": "idle",
               "at": [
                 2.7,
@@ -461,8 +495,8 @@
               "faceTo": "milo"
             },
             {
-              "t": 4.2,
-              "d": 2.6,
+              "t": 3.4,
+              "d": 3.1,
               "anim": "wave",
               "at": [
                 2.7,
@@ -471,8 +505,8 @@
               "faceTo": "milo"
             },
             {
-              "t": 6.8,
-              "d": 3.2,
+              "t": 6.5,
+              "d": 3.5,
               "anim": "idle",
               "at": [
                 2.7,
@@ -526,17 +560,17 @@
           "text": "Drahtesel. 10 Euro. Fährt fast."
         },
         {
-          "t": 4.3,
-          "d": 3.4,
+          "t": 3.4,
+          "d": 3.1,
           "kind": "speech",
           "who": "Dilara",
-          "text": "Mein Spüler ist krank. 20 € für heute!"
+          "text": "Milo! Mein Spüler ist krank. 20 € für heute!"
         },
         {
-          "t": 7.8,
-          "d": 2.1,
+          "t": 6.7,
+          "d": 3.2,
           "kind": "narr",
-          "text": "Drei Wege. Ein Montag."
+          "text": "Und im Park liegen überall Pfandflaschen."
         }
       ],
       "fov": 64
@@ -632,25 +666,30 @@
           "t": 0.3,
           "d": 2.2,
           "kind": "narr",
-          "text": "Du entscheidest."
+          "text": "Also … was mache ich?"
         }
       ],
       "vote": {
-        "t": 2.4
+        "t": 2.4,
+        "say": [
+          "Spülen bei Dilara? Pfandflaschen sammeln im Park? Oder Henks Fahrrad kaufen?",
+          "Ihr entscheidet. Schreibt mir A, B oder C in die Kommentare!",
+          "Und beeilt euch. Freitag kommt schneller, als man denkt."
+        ]
       },
       "fov": 64
     }
   ],
   "choice": {
     "question": "WAS SOLL MILO TUN?",
-    "cta": "Schreib A, B oder C in die Kommentare",
+    "cta": "Schreibt A, B oder C in die Kommentare",
     "options": [
       {
         "key": "A",
         "label": "Spülen bei Dilara",
         "sub": "Sicher: +20 €, aber müde",
         "next": "ep002",
-        "recap": "Milo spült bei Dilara.",
+        "recap": "Ich spüle bei Dilara.",
         "effects": {
           "money": 20,
           "energy": -20,
@@ -668,7 +707,7 @@
         "label": "Pfandflaschen im Park",
         "sub": "Zufall: wenig Geld, viele Überraschungen",
         "next": "ep002",
-        "recap": "Milo sammelt Pfandflaschen im Park.",
+        "recap": "Ich sammle Pfandflaschen im Park.",
         "effects": {
           "money": 6,
           "energy": -10,
@@ -682,7 +721,7 @@
         "label": "Drahtesel kaufen (10 €)",
         "sub": "Riskant: Kurier statt Kellner",
         "next": "ep002",
-        "recap": "Milo kauft Henks alten Drahtesel.",
+        "recap": "Ich kaufe Henks alten Drahtesel.",
         "effects": {
           "money": -10,
           "energy": -5,
