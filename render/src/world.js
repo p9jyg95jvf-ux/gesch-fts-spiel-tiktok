@@ -151,7 +151,9 @@ export function buildEnv(env, seed) {
     }
     for (let x = -60; x < 60; x += 8) {
       const h = 8 + r() * 14;
-      building(scene, win, r, x + r() * 1.5, 22 + r() * 3, 6.5, h, 8, PALETTE[Math.floor(r() * PALETTE.length)], -1);
+      const bx = x + r() * 1.5, col = PALETTE[Math.floor(r() * PALETTE.length)];
+      if (bx > -44 && bx < 14) continue;   // Schneise für den Kameraflug im Intro
+      building(scene, win, r, bx, 22 + r() * 3, 6.5, h, 8, col, -1);
     }
     for (let x = -40; x < 40; x += 9) building(scene, win, r, x, -34, 8, 18 + r() * 25, 8, PALETTE[Math.floor(r() * PALETTE.length)], 1);
     // Immobilienbüro mit dem Kühlschrank (Running Gag)
@@ -275,7 +277,7 @@ export function buildEnv(env, seed) {
     // Passanten
     const ex = extras(scene, wide
       ? [{ x0: -14, x1: 14, z: -5.5, sp: 0.9 }, { x0: 14, x1: -14, z: -7, sp: 0.8 }]
-      : [{ x0: -16, x1: 18, z: 3.9, sp: 0.8 }, { x0: 18, x1: -16, z: 5.3, sp: 0.7 }, { x0: -14, x1: 16, z: -1.4, sp: 0.5 }], r);
+      : [{ x0: -16, x1: 18, z: -2.3, sp: 0.8 }, { x0: 18, x1: -16, z: -1.5, sp: 0.7 }], r);
     updaters.push((t) => ex.forEach((e, i) => {
       const L = Math.abs(e.x1 - e.x0), dir = Math.sign(e.x1 - e.x0), d = ((t * e.sp + i * 6.7) % L);
       e.ch.position.set(e.x0 + dir * d, 0, e.z); e.ch.rotation.y = dir * Math.PI / 2;
