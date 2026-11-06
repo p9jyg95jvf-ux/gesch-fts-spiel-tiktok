@@ -1,0 +1,15 @@
+{
+ "model": "eleven_v3",
+ "note": "Einmal pro Serie besetzt. narr = der Erzähler (spricht zu 'du'). Premade-Stimmen, auf jedem Konto vorhanden.",
+ "cast": {
+  "narr": {
+   "name": "George (premade: warm, Geschichtenerzähler)",
+   "voice": "JBFqnCBsd6RMkjVDRZzb",
+   "speed": 0.97,
+   "stability": 0.5,
+   "similarity": 0.8,
+   "style": 0.2,
+   "tempo": 1.0
+  }
+ }
+}
