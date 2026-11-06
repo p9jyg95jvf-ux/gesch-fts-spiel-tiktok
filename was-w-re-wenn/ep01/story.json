@@ -3,8 +3,8 @@
  "episode": 1,
  "logline": "Um 12 Uhr mittags verschwinden alle Menschen. Was passiert an Tag 1, an Tag 7, nach einem Jahr, nach 300 Jahren und nach 10.000 Jahren?",
  "lead": 0.05,
- "line_gap": 0.4,
- "tail": 4.0,
+ "line_gap": 0.5,
+ "tail": 5.0,
  "beats": [
   {
    "gap": 0,
@@ -18,7 +18,7 @@
    ]
   },
   {
-   "gap": 0.3,
+   "gap": 0.6,
    "card": "TAG 1",
    "scene": "Ein Verkehrsflugzeug zieht im Autopiloten über die leere Stadt, das Cockpit leer. Die Tankanzeige sinkt sichtbar. Unten rollen Autos gegen Laternen.",
    "lines": [
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "gap": 0.4,
+   "gap": 0.7,
    "card": "TAG 2",
    "scene": "Eine U-Bahn-Station: die Pumpen stehen still, Wasser quillt aus den Gleisen, steigt über den Bahnsteig, die Lichter flackern und gehen aus.",
    "lines": [
@@ -42,7 +42,19 @@
    ]
   },
   {
-   "gap": 0.4,
+   "gap": 0.8,
+   "card": "TAG 3",
+   "scene": "Ein Umspannwerk: Funken, die Anzeigen fallen eine nach der anderen auf Null, dann geht in der Skyline Fenster für Fenster das Licht aus.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Das Stromnetz bricht zusammen. Die letzten Lichter gehen aus.",
+     "captions": "Das *Stromnetz*|bricht zusammen.|Die letzten *Lichter*|gehen aus."
+    }
+   ]
+  },
+  {
+   "gap": 0.7,
    "card": "TAG 7",
    "scene": "Ein Atomkraftwerk bei Nacht: der Tank des Notstrom-Diesels zeigt Null, ein Warnlicht blinkt rot, Dampf steigt auf. Kamera fährt auf die Tankanzeige.",
    "lines": [
@@ -54,7 +66,7 @@
    ]
   },
   {
-   "gap": 0.4,
+   "gap": 0.7,
    "card": "TAG 30",
    "scene": "Eine komplett dunkle Stadt aus der Luft, nur ein paar Feuer glimmen. Darüber öffnet sich ein riesiger Sternenhimmel mit der Milchstraße, so klar wie seit Jahrhunderten nicht.",
    "lines": [
@@ -66,7 +78,7 @@
    ]
   },
   {
-   "gap": 0.4,
+   "gap": 0.7,
    "card": "JAHR 1",
    "scene": "Eine Straße im Zeitraffer: Gras und Löwenzahn brechen durch Risse im Asphalt, Moos auf Ampeln, ein Reh überquert die Kreuzung.",
    "lines": [
@@ -78,7 +90,7 @@
    ]
   },
   {
-   "gap": 0.4,
+   "gap": 0.7,
    "card": "JAHR 10",
    "scene": "Ein Bürohaus, Dächer eingestürzt, Fenster ohne Glas, Efeu bis zum zehnten Stock. Auf der Fußgängerzone grasen Rehe und ein Wolf läuft vorbei.",
    "lines": [
@@ -90,7 +102,19 @@
    ]
   },
   {
-   "gap": 0.5,
+   "gap": 0.8,
+   "card": "JAHR 100",
+   "scene": "Eine Straße voller Autos, rotbraun verrostet und überwuchert; Stahlträger einer Halle biegen sich, Rost blättert ab, Efeu hält alles zusammen.",
+   "lines": [
+    {
+     "speaker": "narr",
+     "text": "Rost frisst Autos und Stahlträger.",
+     "captions": "*Rost* frisst *Autos*|und *Stahlträger*."
+    }
+   ]
+  },
+  {
+   "gap": 0.8,
    "card": "JAHR 300",
    "scene": "DER CLIP-MOMENT (3-4 s, volle Bildbreite): Eine große Hängebrücke über einem Fluss, die Seile verrostet; die Mitte reißt ab, die Fahrbahn bricht und stürzt in Zeitlupe ins Wasser, Gischt. Danach 1.5-2 s ohne Stimme, nur Wind und Wasser. Versteckt: hinter dem Pfeiler zieht ein Rudel Wölfe.",
    "lines": [
@@ -102,7 +126,7 @@
    ]
   },
   {
-   "gap": 1.9,
+   "gap": 3.0,
    "card": "JAHR 10.000",
    "scene": "Ein dichter Wald, durch das Blätterdach ragt hier und da ein verwitterter, überwucherter Betonrest. Tiere ziehen durch; es ist hell und friedlich.",
    "lines": [
@@ -114,7 +138,7 @@
    ]
   },
   {
-   "gap": 0.4,
+   "gap": 0.7,
    "scene": "Die vier Köpfe am Berg Mount Rushmore, verwittert aber erkennbar, im Morgenlicht; daneben im Boden eine Schicht aus Plastik.",
    "lines": [
     {
@@ -125,7 +149,7 @@
    ]
   },
   {
-   "gap": 0.5,
+   "gap": 0.8,
    "scene": "DIE ABSTIMMUNG: ruhiger Weitwinkel auf den Wald mit den Betonresten; Titel und Pills liegen über y 800-1440.",
    "lines": [
     {
