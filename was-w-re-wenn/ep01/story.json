@@ -43,25 +43,30 @@
   },
   {
    "gap": 0.8,
-   "card": "TAG 3",
-   "scene": "Ein Umspannwerk: Funken, die Anzeigen fallen eine nach der anderen auf Null, dann geht in der Skyline Fenster für Fenster das Licht aus.",
+   "card": "TAG 7",
+   "scene": "Ein Umspannwerk: Funken, die Anzeigen fallen auf Null; dann Schnitt auf die Skyline, in der Fenster für Fenster das Licht ausgeht. Der Notstrom-Tank eines Kraftwerks zeigt Null, ein Warnlicht blinkt rot.",
    "lines": [
     {
      "speaker": "narr",
-     "text": "Das Stromnetz bricht zusammen. Die letzten Lichter gehen aus.",
-     "captions": "Das *Stromnetz*|bricht zusammen.|Die letzten *Lichter*|gehen aus."
+     "text": "Das Stromnetz bricht zusammen. Die Notstrom-Diesel sind leer.",
+     "captions": "Das *Stromnetz*|bricht zusammen.|Die *Notstrom-Diesel*|sind !leer!."
+    },
+    {
+     "speaker": "narr",
+     "text": "Die Atomkraftwerke verlieren ihre Kühlung.",
+     "captions": "Die *Atomkraftwerke*|verlieren ihre|!Kühlung!."
     }
    ]
   },
   {
-   "gap": 0.7,
-   "card": "TAG 7",
-   "scene": "Ein Atomkraftwerk bei Nacht: der Tank des Notstrom-Diesels zeigt Null, ein Warnlicht blinkt rot, Dampf steigt auf. Kamera fährt auf die Tankanzeige.",
+   "gap": 0.8,
+   "card": "TAG 14",
+   "scene": "Eine Stadt bei Nacht aus der Luft: ganze Viertel brennen, niemand löscht, Funken wehen über die Dächer, Rauchsäulen steigen auf.",
    "lines": [
     {
      "speaker": "narr",
-     "text": "Die Notstrom-Diesel der Atomkraftwerke sind leer.",
-     "captions": "Die *Notstrom-Diesel*|der Atomkraftwerke|sind !leer!."
+     "text": "Ohne Feuerwehr breiten sich Brände aus.",
+     "captions": "Ohne *Feuerwehr*|breiten sich|*Brände* aus."
     }
    ]
   },

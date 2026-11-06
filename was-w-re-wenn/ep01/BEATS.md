@@ -7,8 +7,8 @@
 | 0 | 0-4 s | **Frame 0 ist Aktion:** leere Kreuzung, Kleidung und Handy am Boden, ein Auto rollt allein, Funkeln | „Mittag. Alle Menschen verschwinden.“ | Ausgangslage |
 | 1 | 4-10 s | TAG 1: Flugzeug im Autopiloten, Tankanzeige sinkt | „Kein Pilot, kein Fahrer. Die Flugzeuge fliegen, bis der Tank leer ist.“ | Autopilot fliegt nur, solange Kerosin reicht (Stunden) |
 | 2 | 10-15 s | TAG 2: U-Bahn-Station läuft voll | „Die Pumpen stehen still. Die U-Bahn-Tunnel laufen voll.“ | Ohne Pumpen fluten U-Bahn-Schächte (Weisman: in Tagen) |
-| 2b | 15-20 s | TAG 3: Umspannwerk fällt aus, die Skyline wird dunkel | „Das Stromnetz bricht zusammen. Die letzten Lichter gehen aus.“ | Netz ohne Regelung bricht binnen Tagen zusammen |
-| 3 | 20-27 s | TAG 7: Atomkraftwerk, Notstrom-Tank leer, Warnlicht | „Die Notstrom-Diesel der Atomkraftwerke sind leer.“ | Diesel-Vorräte reichen etwa eine Woche |
+| 3 | 15-24 s | TAG 7: Umspannwerk fällt aus, Skyline dunkel, Notstrom-Tank leer; Atomkraftwerk verliert Kühlung | „Das Stromnetz bricht zusammen. Die Notstrom-Diesel sind leer. Die Atomkraftwerke verlieren ihre Kühlung.“ | Notstrom-Diesel reichen etwa 7 Tage; ohne Netz und Notstrom fällt die Kühlung aus (das Netz selbst fällt real schon früher aus) |
+| 3b | 24-28 s | TAG 14: Stadtviertel brennen | „Ohne Feuerwehr breiten sich Brände aus.“ | ohne Löschkräfte weiten sich Brände aus |
 | 4 | 21-26 s | TAG 30: dunkle Stadt, Milchstraße | „Die Städte sind dunkel. Die Sterne kommen zurück.“ | Lichtverschmutzung entfällt |
 | 5 | 26-31 s | JAHR 1: Gras durch den Asphalt, ein Reh | „Gras bricht durch den Asphalt.“ | Pflanzen besiedeln Risse schnell |
 | 6 | 31-36 s | JAHR 10: Dächer eingestürzt, Rehe und Wolf in der Fußgängerzone | „Dächer stürzen ein. Wölfe und Rehe ziehen durch die Innenstadt.“ | Wasser, Frost und Pflanzen zerstören Dächer |
