@@ -1,0 +1,487 @@
+{
+ "voices": {
+  "narr": {
+   "name": "George (premade: warm, Geschichtenerzähler)",
+   "speed": 0.97,
+   "stability": 0.5,
+   "tempo": 1.0
+  }
+ },
+ "model": "eleven_v3",
+ "sr": 48000,
+ "duration": 70.067,
+ "frames": 2102,
+ "fps": 30,
+ "stats": {},
+ "lines": [
+  {
+   "i": 0,
+   "beat": 0,
+   "speaker": "narr",
+   "text": "Mittag. Alle Menschen verschwinden.",
+   "start": 0.05,
+   "end": 2.93,
+   "words": [
+    0.05,
+    0.85,
+    1.854,
+    2.244
+   ],
+   "chunks": [
+    {
+     "text": "*Mittag*.",
+     "start": 0.05,
+     "end": 0.85
+    },
+    {
+     "text": "Alle *Menschen*",
+     "start": 0.85,
+     "end": 1.854
+    },
+    {
+     "text": "!verschwinden!.",
+     "start": 1.854,
+     "end": 2.93
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "beat": 1,
+   "speaker": "narr",
+   "text": "Kein Pilot, kein Fahrer. Die Flugzeuge fliegen, bis der Tank leer ist.",
+   "start": 4.03,
+   "end": 8.43,
+   "words": [
+    4.03,
+    4.27,
+    4.942,
+    5.15,
+    5.77,
+    6.243,
+    6.857,
+    7.25,
+    7.35,
+    7.534,
+    7.838,
+    8.09
+   ],
+   "chunks": [
+    {
+     "text": "Kein Pilot,",
+     "start": 4.03,
+     "end": 4.942
+    },
+    {
+     "text": "kein Fahrer.",
+     "start": 4.942,
+     "end": 5.77
+    },
+    {
+     "text": "Die *Flugzeuge* fliegen,",
+     "start": 5.77,
+     "end": 6.857
+    },
+    {
+     "text": "bis der *Tank* leer ist.",
+     "start": 6.857,
+     "end": 8.43
+    }
+   ],
+   "card": "TAG 1"
+  },
+  {
+   "i": 2,
+   "beat": 2,
+   "speaker": "narr",
+   "text": "Die Pumpen stehen still. Die U-Bahn-Tunnel laufen voll.",
+   "start": 9.63,
+   "end": 13.07,
+   "words": [
+    9.63,
+    9.774,
+    10.156,
+    10.497,
+    11.05,
+    11.59,
+    12.297,
+    12.67
+   ],
+   "chunks": [
+    {
+     "text": "Die Pumpen",
+     "start": 9.63,
+     "end": 10.497
+    },
+    {
+     "text": "stehen still.",
+     "start": 10.497,
+     "end": 11.59
+    },
+    {
+     "text": "Die *Tunnel*",
+     "start": 11.59,
+     "end": 12.297
+    },
+    {
+     "text": "laufen !voll!.",
+     "start": 12.297,
+     "end": 13.07
+    }
+   ],
+   "card": "TAG 2"
+  },
+  {
+   "i": 3,
+   "beat": 3,
+   "speaker": "narr",
+   "text": "Das Stromnetz bricht zusammen. Die letzten Lichter gehen aus.",
+   "start": 14.37,
+   "end": 18.21,
+   "words": [
+    14.37,
+    14.53,
+    15.197,
+    15.463,
+    16.13,
+    16.67,
+    17.13,
+    17.463,
+    17.81
+   ],
+   "chunks": [
+    {
+     "text": "Das *Stromnetz*",
+     "start": 14.37,
+     "end": 15.197
+    },
+    {
+     "text": "bricht zusammen.",
+     "start": 15.197,
+     "end": 16.13
+    },
+    {
+     "text": "Die letzten *Lichter*",
+     "start": 16.13,
+     "end": 17.463
+    },
+    {
+     "text": "gehen aus.",
+     "start": 17.463,
+     "end": 18.21
+    }
+   ],
+   "card": "TAG 3"
+  },
+  {
+   "i": 4,
+   "beat": 4,
+   "speaker": "narr",
+   "text": "Die Notstrom-Diesel der Atomkraftwerke sind leer.",
+   "start": 19.41,
+   "end": 22.37,
+   "words": [
+    19.41,
+    19.57,
+    20.49,
+    20.706,
+    21.698,
+    21.954
+   ],
+   "chunks": [
+    {
+     "text": "Die *Notstrom-Diesel*",
+     "start": 19.41,
+     "end": 20.706
+    },
+    {
+     "text": "der Atomkraftwerke",
+     "start": 20.706,
+     "end": 21.698
+    },
+    {
+     "text": "sind !leer!.",
+     "start": 21.698,
+     "end": 22.37
+    }
+   ],
+   "card": "TAG 7"
+  },
+  {
+   "i": 5,
+   "beat": 5,
+   "speaker": "narr",
+   "text": "Die Städte sind dunkel. Die Sterne kommen zurück.",
+   "start": 23.57,
+   "end": 26.61,
+   "words": [
+    23.57,
+    23.73,
+    24.098,
+    24.338,
+    24.91,
+    25.394,
+    25.787,
+    26.187
+   ],
+   "chunks": [
+    {
+     "text": "Die Städte",
+     "start": 23.57,
+     "end": 24.338
+    },
+    {
+     "text": "sind *dunkel*.",
+     "start": 24.338,
+     "end": 24.91
+    },
+    {
+     "text": "Die *Sterne*",
+     "start": 24.91,
+     "end": 25.787
+    },
+    {
+     "text": "kommen zurück.",
+     "start": 25.787,
+     "end": 26.61
+    }
+   ],
+   "card": "TAG 30"
+  },
+  {
+   "i": 6,
+   "beat": 6,
+   "speaker": "narr",
+   "text": "Gras bricht durch den Asphalt.",
+   "start": 27.81,
+   "end": 29.97,
+   "words": [
+    27.81,
+    28.237,
+    28.557,
+    28.73,
+    28.92
+   ],
+   "chunks": [
+    {
+     "text": "*Gras*",
+     "start": 27.81,
+     "end": 28.237
+    },
+    {
+     "text": "bricht durch",
+     "start": 28.237,
+     "end": 28.92
+    },
+    {
+     "text": "den *Asphalt*.",
+     "start": 28.92,
+     "end": 29.97
+    }
+   ],
+   "card": "JAHR 1"
+  },
+  {
+   "i": 7,
+   "beat": 7,
+   "speaker": "narr",
+   "text": "Dächer stürzen ein. Wölfe und Rehe ziehen durch die Innenstadt.",
+   "start": 31.17,
+   "end": 35.17,
+   "words": [
+    31.17,
+    31.57,
+    32.07,
+    32.79,
+    33.37,
+    33.543,
+    33.87,
+    34.17,
+    34.39,
+    34.503
+   ],
+   "chunks": [
+    {
+     "text": "*Dächer* stürzen ein.",
+     "start": 31.17,
+     "end": 32.79
+    },
+    {
+     "text": "*Wölfe* und *Rehe*",
+     "start": 32.79,
+     "end": 33.543
+    },
+    {
+     "text": "ziehen durch die Stadt.",
+     "start": 33.543,
+     "end": 35.17
+    }
+   ],
+   "card": "JAHR 10"
+  },
+  {
+   "i": 8,
+   "beat": 8,
+   "speaker": "narr",
+   "text": "Rost frisst Autos und Stahlträger.",
+   "start": 36.47,
+   "end": 39.03,
+   "words": [
+    36.47,
+    36.87,
+    37.283,
+    37.81,
+    38.043
+   ],
+   "chunks": [
+    {
+     "text": "*Rost* frisst *Autos*",
+     "start": 36.47,
+     "end": 37.81
+    },
+    {
+     "text": "und *Stahlträger*.",
+     "start": 37.81,
+     "end": 39.03
+    }
+   ],
+   "card": "JAHR 100"
+  },
+  {
+   "i": 9,
+   "beat": 9,
+   "speaker": "narr",
+   "text": "Die großen Brücken stürzen ein.",
+   "start": 40.33,
+   "end": 42.25,
+   "words": [
+    40.33,
+    40.479,
+    40.943,
+    41.343,
+    41.87
+   ],
+   "chunks": [
+    {
+     "text": "Die großen *Brücken*",
+     "start": 40.33,
+     "end": 41.343
+    },
+    {
+     "text": "!stürzen! ein.",
+     "start": 41.343,
+     "end": 42.25
+    }
+   ],
+   "card": "JAHR 300"
+  },
+  {
+   "i": 10,
+   "beat": 10,
+   "speaker": "narr",
+   "text": "Wald, wo einst Städte standen.",
+   "start": 45.75,
+   "end": 47.75,
+   "words": [
+    45.75,
+    46.203,
+    46.39,
+    46.843,
+    47.177
+   ],
+   "chunks": [
+    {
+     "text": "*Wald*,",
+     "start": 45.75,
+     "end": 46.203
+    },
+    {
+     "text": "wo einst *Städte*",
+     "start": 46.203,
+     "end": 47.177
+    },
+    {
+     "text": "standen.",
+     "start": 47.177,
+     "end": 47.75
+    }
+   ],
+   "card": "JAHR 10.000"
+  },
+  {
+   "i": 11,
+   "beat": 11,
+   "speaker": "narr",
+   "text": "Was bleibt? Plastik. Und Felsgesichter, die Millionen Jahre halten.",
+   "start": 48.95,
+   "end": 54.95,
+   "words": [
+    48.95,
+    49.19,
+    50.257,
+    51.58,
+    51.99,
+    52.81,
+    52.918,
+    53.403,
+    53.739
+   ],
+   "chunks": [
+    {
+     "text": "Was bleibt?",
+     "start": 48.95,
+     "end": 50.257
+    },
+    {
+     "text": "*Plastik*. Und *Felsgesichter*,",
+     "start": 50.257,
+     "end": 53.403
+    },
+    {
+     "text": "Millionen Jahre.",
+     "start": 53.403,
+     "end": 54.95
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "beat": 12,
+   "speaker": "narr",
+   "text": "Was zeigen wir als Nächstes? Atomkraftwerke. Tiere. Oder deine Stadt.",
+   "start": 56.25,
+   "end": 62.01,
+   "words": [
+    56.25,
+    56.524,
+    56.77,
+    56.93,
+    57.13,
+    57.786,
+    59.45,
+    60.45,
+    60.93,
+    61.197
+   ],
+   "chunks": [],
+   "vote": true
+  },
+  {
+   "i": 13,
+   "beat": 12,
+   "speaker": "narr",
+   "text": "Kommentiere eins, zwei oder drei.",
+   "start": 62.51,
+   "end": 65.07,
+   "words": [
+    62.51,
+    63.07,
+    63.79,
+    64.222,
+    64.734
+   ],
+   "chunks": [],
+   "cmt": true
+  }
+ ]
+}
